@@ -1,0 +1,13 @@
+typescript
+https://facebook.github.io/react-native/blog/2018/05/07/using-typescript-with-react-native
+https://medium.com/@jan.hesters/3-easy-steps-to-set-up-react-native-with-typescript-jest-and-enzyme-592ca042262f
+
+graphql
+https://github.com/jimkyndemeyer/js-graphql-intellij-plugin/releases
+
+troubleshoot
+------------
+run jest => SyntaxError: Unexpected token import => package.js => "jest":{"transformIgnorePatterns":...
+
+RESPONDER_INACTIVE_PRESS_IN
+Just check the clocks on your computer and phone. If there is a noticeable difference, disable the auto setting on one device and change it to match the other.

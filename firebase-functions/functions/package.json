@@ -1,0 +1,84 @@
+{
+  "name": "server",
+  "scripts": {
+    "build": "tsc --skipLibCheck",
+    "serve ip": "set DEBUG=express:* & firebase serve --only functions --host 192.168.43.100",
+    "serve": "set DEBUG=express:* & firebase serve --only functions",
+    "deploy": "firebase deploy",
+    "apollo locale": "apollo schema:publish --endpoint=http://localhost:5000/fire-redux-85834/us-central1/graphql --key=\"service:meetnative:YZu7r1MjmmhevlWeemYMWg\"",
+    "apollo remote": "apollo schema:publish --endpoint=https://us-central1-fire-redux-85834.cloudfunctions.net/graphql/ --key=\"service:meetnative:YZu7r1MjmmhevlWeemYMWg\"",
+    "add-assets": "copyfiles -u 1 \"../../react-native/src/**/!(*.js|*.jsx|*.map|*.ts|*.tsx|*.snap)\" lib/react-native/src/ && copyfiles -u 1 \"./src/**/!(*.js|*.jsx|*.map|*.ts|*.tsx|*.snap)\" lib/firebase-functions/src"
+  },
+  "main": "lib/firebase-functions/functions/src/cloud-function.js",
+  "dependencies": {
+    "@types/graphql": "^14.0.7",
+    "@types/graphql-type-json": "latest",
+    "@types/jest": "^24.0.6",
+    "PubSub": "^3.6.0",
+    "apollo": "^2.5.3",
+    "apollo-server": "^2.4.8",
+    "apollo-server-express": "^2.4.8",
+    "callback-to-async-iterator": "^1.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "firebase": "^5.8.4",
+    "firebase-admin": "^7.0.0",
+    "firebase-functions": "^2.2.0",
+    "geolib": "^2.0.24",
+    "graphql": "^14.1.1",
+    "graphql-import": "^0.7.1",
+    "graphql-tag": "^2.10.1",
+    "graphql-type-json": "^0.2.1",
+    "graphql-type-long": "^0.1.1",
+    "http": "^0.0.0",
+    "iterall": "^1.2.2",
+    "lodash": "^4.17.11",
+    "messageformat": "^2.0.5",
+    "morgan": "^1.9.1",
+    "ngeohash": "^0.6.3",
+    "subscriptions-transport-ws": "^0.9.15"
+  },
+  "devDependencies": {
+    "@types/morgan": "^1.7.35",
+    "@types/ngeohash": "^0.6.2",
+    "babel-jest": "23.6.0",
+    "babel-preset-react-native": "latest",
+    "copyfiles": "^2.1.0",
+    "eslint-plugin-jest": "^22.1.3",
+    "jest": "23.6.0",
+    "jest-fetch-mock": "^2.1.0",
+    "ts-jest": "^23.10.5",
+    "typescript": "^3.2.2"
+  },
+  "jest": {
+    "globals": {
+      "ts-jest": {
+        "tsConfigFile": "tsconfig.jest.json"
+      }
+    },
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ],
+    "modulePaths": [
+      "<rootDir>"
+    ],
+    "setupTestFrameworkScriptFile": "./jest.before.js",
+    "setupFiles": [
+      "./jest.setup.js"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.{ts,tsx}",
+      "!src/**/*stories*"
+    ]
+  },
+  "private": true
+}

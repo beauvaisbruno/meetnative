@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GooglePlacesInput 1`] = `
+<GooglePlacesAutocomplete
+  GooglePlacesSearchQuery={
+    Object {
+      "rankby": "distance",
+      "type": "locality",
+    }
+  }
+  GoogleReverseGeocodingQuery={Object {}}
+  autoFillOnNotFound={false}
+  autoFocus={false}
+  currentLocation={true}
+  currentLocationLabel="Current location"
+  debounce={200}
+  editable={true}
+  enableEmptySections={true}
+  enableHighAccuracyLocation={true}
+  enablePoweredByContainer={false}
+  fetchDetails={true}
+  filterReverseGeocodingByTypes={Array []}
+  getDefaultValue={[Function]}
+  isRowScrollable={true}
+  keyboardShouldPersistTaps="always"
+  listViewDisplayed="false"
+  minLength={2}
+  nearbyPlacesAPI="GooglePlacesSearch"
+  numberOfLines={1}
+  onFail={[Function]}
+  onNotFound={[Function]}
+  onPress={[Function]}
+  onSubmitEditing={[Function]}
+  onTimeout={[Function]}
+  placeholder="Search"
+  placeholderTextColor="#A8A8A8"
+  predefinedPlaces={Array []}
+  predefinedPlacesAlwaysVisible={false}
+  query={
+    Object {
+      "key": "AIzaSyACed1wrMg8bwNMQTww_oPn8WQdkzkRM7I",
+      "language": "en",
+      "types": "(cities)",
+    }
+  }
+  returnKeyType="search"
+  styles={
+    Object {
+      "predefinedPlacesDescription": Object {
+        "color": "#8e7cc3",
+      },
+      "textInput": Object {
+        "color": "#000",
+        "fontSize": 16,
+        "height": 38,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 4,
+        "paddingLeft": 7,
+        "paddingRight": 0,
+      },
+      "textInputContainer": Object {
+        "backgroundColor": "rgba(0,0,0,0)",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+      },
+    }
+  }
+  suppressDefaultStyles={false}
+  testID="GooglePlacesAutocomplete"
+  textInputHide={false}
+  textInputProps={Object {}}
+  timeout={20000}
+  underlineColorAndroid="transparent"
+/>
+`;

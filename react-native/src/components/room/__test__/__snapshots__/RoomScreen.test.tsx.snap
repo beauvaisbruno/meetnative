@@ -1,0 +1,491 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RoomScreen 1`] = `
+<Styled(ViewNB)
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <ChatHeader
+    profile={
+      Object {
+        "age": 23,
+        "avatar": "pelican",
+        "city": "Genève",
+        "geohash": 872962206,
+        "id": "IEY3I5fpxQilwKzPt0Sc",
+        "langsToLearn": Object {
+          "english": "beginner",
+          "french": "fluent",
+          "german": "intermediate",
+        },
+        "langsToTeach": Object {
+          "french": "fluent",
+          "italian": "bilingual",
+          "spanish": "native",
+        },
+        "lat": 46.08995392215012,
+        "lon": 6.107057129141845,
+        "profession": "Legal Assistant",
+        "pseudo": "Maëlle",
+      }
+    }
+    user={
+      Object {
+        "age": 23,
+        "avatar": "cute",
+        "city": "Genève",
+        "geohash": 3661469831164302,
+        "id": "C3iSMgBhdmazzcOngiTBpo7USNv2",
+        "langsToLearn": Object {
+          "french": "intermediate",
+          "italian": "beginner",
+          "spanish": "fluent",
+        },
+        "langsToTeach": Object {
+          "english": "native",
+          "spanish": "fluent",
+        },
+        "lat": 46.144516,
+        "lon": 6.081338,
+        "profession": "profession",
+        "pseudo": "pseudo",
+      }
+    }
+  />
+  <Connect(withNavigation(MessagesUi))
+    contactProfile={
+      Object {
+        "age": 23,
+        "avatar": "pelican",
+        "city": "Genève",
+        "geohash": 872962206,
+        "id": "IEY3I5fpxQilwKzPt0Sc",
+        "langsToLearn": Object {
+          "english": "beginner",
+          "french": "fluent",
+          "german": "intermediate",
+        },
+        "langsToTeach": Object {
+          "french": "fluent",
+          "italian": "bilingual",
+          "spanish": "native",
+        },
+        "lat": 46.08995392215012,
+        "lon": 6.107057129141845,
+        "profession": "Legal Assistant",
+        "pseudo": "Maëlle",
+      }
+    }
+  />
+  <Styled(ViewNB)
+    style={
+      Object {
+        "borderBottomColor": "#a6a6a6",
+        "borderBottomWidth": 1,
+        "borderLeftColor": "#a6a6a6",
+        "borderLeftWidth": 1,
+        "borderRadius": 10,
+        "borderRightColor": "#a6a6a6",
+        "borderRightWidth": 1,
+        "borderTopColor": "#a6a6a6",
+        "borderTopWidth": 1,
+        "flexDirection": "row",
+        "marginBottom": 5,
+        "marginLeft": 5,
+        "marginRight": 5,
+        "marginTop": 0,
+        "paddingBottom": 5,
+        "paddingLeft": 5,
+        "paddingRight": 5,
+        "paddingTop": 5,
+      }
+    }
+  >
+    <Styled(Input)
+      onChangeText={[Function]}
+      placeholder="Message"
+      placeholderTextColor="#919191"
+      style={
+        Object {
+          "fontSize": 25,
+          "marginBottom": 0,
+          "marginLeft": 0,
+          "marginRight": 0,
+          "marginTop": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+        }
+      }
+      value=""
+    />
+    <Styled(Button)
+      block={true}
+      onPress={[Function]}
+      style={
+        Object {
+          "marginBottom": 0,
+          "marginLeft": 0,
+          "marginRight": 0,
+          "marginTop": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+        }
+      }
+      testID="sendBtn"
+      transparent={true}
+    >
+      <Styled(Icon)
+        name="send"
+        style={
+          Object {
+            "fontSize": 40,
+            "marginBottom": 0,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 0,
+          }
+        }
+        type="FontAwesome"
+      />
+    </Styled(Button)>
+  </Styled(ViewNB)>
+</Styled(ViewNB)>
+`;
+
+exports[`RoomScreen 2`] = `
+<Styled(ViewNB)
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <ChatHeader
+    profile={
+      Object {
+        "age": 23,
+        "avatar": "pelican",
+        "city": "Genève",
+        "geohash": 872962206,
+        "id": "IEY3I5fpxQilwKzPt0Sc",
+        "langsToLearn": Object {
+          "english": "beginner",
+          "french": "fluent",
+          "german": "intermediate",
+        },
+        "langsToTeach": Object {
+          "french": "fluent",
+          "italian": "bilingual",
+          "spanish": "native",
+        },
+        "lat": 46.08995392215012,
+        "lon": 6.107057129141845,
+        "profession": "Legal Assistant",
+        "pseudo": "Maëlle",
+      }
+    }
+    user={
+      Object {
+        "age": 23,
+        "avatar": "cute",
+        "city": "Genève",
+        "geohash": 3661469831164302,
+        "id": "C3iSMgBhdmazzcOngiTBpo7USNv2",
+        "langsToLearn": Object {
+          "french": "intermediate",
+          "italian": "beginner",
+          "spanish": "fluent",
+        },
+        "langsToTeach": Object {
+          "english": "native",
+          "spanish": "fluent",
+        },
+        "lat": 46.144516,
+        "lon": 6.081338,
+        "profession": "profession",
+        "pseudo": "pseudo",
+      }
+    }
+  />
+  <Connect(withNavigation(MessagesUi))
+    contactProfile={
+      Object {
+        "age": 23,
+        "avatar": "pelican",
+        "city": "Genève",
+        "geohash": 872962206,
+        "id": "IEY3I5fpxQilwKzPt0Sc",
+        "langsToLearn": Object {
+          "english": "beginner",
+          "french": "fluent",
+          "german": "intermediate",
+        },
+        "langsToTeach": Object {
+          "french": "fluent",
+          "italian": "bilingual",
+          "spanish": "native",
+        },
+        "lat": 46.08995392215012,
+        "lon": 6.107057129141845,
+        "profession": "Legal Assistant",
+        "pseudo": "Maëlle",
+      }
+    }
+  />
+  <Styled(ViewNB)
+    style={
+      Object {
+        "borderBottomColor": "#a6a6a6",
+        "borderBottomWidth": 1,
+        "borderLeftColor": "#a6a6a6",
+        "borderLeftWidth": 1,
+        "borderRadius": 10,
+        "borderRightColor": "#a6a6a6",
+        "borderRightWidth": 1,
+        "borderTopColor": "#a6a6a6",
+        "borderTopWidth": 1,
+        "flexDirection": "row",
+        "marginBottom": 5,
+        "marginLeft": 5,
+        "marginRight": 5,
+        "marginTop": 0,
+        "paddingBottom": 5,
+        "paddingLeft": 5,
+        "paddingRight": 5,
+        "paddingTop": 5,
+      }
+    }
+  >
+    <Styled(Input)
+      onChangeText={[Function]}
+      placeholder="Message"
+      placeholderTextColor="#919191"
+      style={
+        Object {
+          "fontSize": 25,
+          "marginBottom": 0,
+          "marginLeft": 0,
+          "marginRight": 0,
+          "marginTop": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+        }
+      }
+      value=""
+    />
+    <Styled(Button)
+      block={true}
+      onPress={[Function]}
+      style={
+        Object {
+          "marginBottom": 0,
+          "marginLeft": 0,
+          "marginRight": 0,
+          "marginTop": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+        }
+      }
+      testID="sendBtn"
+      transparent={true}
+    >
+      <Styled(Icon)
+        name="send"
+        style={
+          Object {
+            "fontSize": 40,
+            "marginBottom": 0,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 0,
+          }
+        }
+        type="FontAwesome"
+      />
+    </Styled(Button)>
+  </Styled(ViewNB)>
+</Styled(ViewNB)>
+`;
+
+exports[`RoomScreen 3`] = `
+<Styled(ViewNB)
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <ChatHeader
+    profile={
+      Object {
+        "age": 23,
+        "avatar": "pelican",
+        "city": "Genève",
+        "geohash": 872962206,
+        "id": "IEY3I5fpxQilwKzPt0Sc",
+        "langsToLearn": Object {
+          "english": "beginner",
+          "french": "fluent",
+          "german": "intermediate",
+        },
+        "langsToTeach": Object {
+          "french": "fluent",
+          "italian": "bilingual",
+          "spanish": "native",
+        },
+        "lat": 46.08995392215012,
+        "lon": 6.107057129141845,
+        "profession": "Legal Assistant",
+        "pseudo": "Maëlle",
+      }
+    }
+    user={
+      Object {
+        "age": 23,
+        "avatar": "cute",
+        "city": "Genève",
+        "geohash": 3661469831164302,
+        "id": "C3iSMgBhdmazzcOngiTBpo7USNv2",
+        "langsToLearn": Object {
+          "french": "intermediate",
+          "italian": "beginner",
+          "spanish": "fluent",
+        },
+        "langsToTeach": Object {
+          "english": "native",
+          "spanish": "fluent",
+        },
+        "lat": 46.144516,
+        "lon": 6.081338,
+        "profession": "profession",
+        "pseudo": "pseudo",
+      }
+    }
+  />
+  <Connect(withNavigation(MessagesUi))
+    contactProfile={
+      Object {
+        "age": 23,
+        "avatar": "pelican",
+        "city": "Genève",
+        "geohash": 872962206,
+        "id": "IEY3I5fpxQilwKzPt0Sc",
+        "langsToLearn": Object {
+          "english": "beginner",
+          "french": "fluent",
+          "german": "intermediate",
+        },
+        "langsToTeach": Object {
+          "french": "fluent",
+          "italian": "bilingual",
+          "spanish": "native",
+        },
+        "lat": 46.08995392215012,
+        "lon": 6.107057129141845,
+        "profession": "Legal Assistant",
+        "pseudo": "Maëlle",
+      }
+    }
+  />
+  <Styled(ViewNB)
+    style={
+      Object {
+        "borderBottomColor": "#a6a6a6",
+        "borderBottomWidth": 1,
+        "borderLeftColor": "#a6a6a6",
+        "borderLeftWidth": 1,
+        "borderRadius": 10,
+        "borderRightColor": "#a6a6a6",
+        "borderRightWidth": 1,
+        "borderTopColor": "#a6a6a6",
+        "borderTopWidth": 1,
+        "flexDirection": "row",
+        "marginBottom": 5,
+        "marginLeft": 5,
+        "marginRight": 5,
+        "marginTop": 0,
+        "paddingBottom": 5,
+        "paddingLeft": 5,
+        "paddingRight": 5,
+        "paddingTop": 5,
+      }
+    }
+  >
+    <Styled(Input)
+      onChangeText={[Function]}
+      placeholder="Message"
+      placeholderTextColor="#919191"
+      style={
+        Object {
+          "fontSize": 25,
+          "marginBottom": 0,
+          "marginLeft": 0,
+          "marginRight": 0,
+          "marginTop": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+        }
+      }
+      value=""
+    />
+    <Styled(Button)
+      block={true}
+      onPress={[Function]}
+      style={
+        Object {
+          "marginBottom": 0,
+          "marginLeft": 0,
+          "marginRight": 0,
+          "marginTop": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+        }
+      }
+      testID="sendBtn"
+      transparent={true}
+    >
+      <Component />
+      <Styled(Icon)
+        name="send-o"
+        style={
+          Object {
+            "fontSize": 40,
+            "marginBottom": 0,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 0,
+          }
+        }
+        type="FontAwesome"
+      />
+    </Styled(Button)>
+  </Styled(ViewNB)>
+</Styled(ViewNB)>
+`;

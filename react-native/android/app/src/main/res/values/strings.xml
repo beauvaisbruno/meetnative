@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MeetNative</string>
+    <string name="facebook_app_id">sample</string>
+    <string name="fb_login_protocol_scheme">sample</string>
+</resources>

@@ -1,0 +1,140 @@
+version: 2
+jobs:
+  node:
+    working_directory: ~/
+    docker:
+      - image: circleci/node:10
+    environment:
+      _JAVA_OPTIONS: "-Xmx1500m"
+    steps:
+      - checkout:
+          path: ~/checkout/
+      - run:
+          command: |
+            cd ~/checkout/react-native/android/app
+            openssl aes-256-cbc -in meetnative.keyencrypted -out meetnative.keystore -d -pass env:MEETNATIVE_KEYSTORE_DECRYPT
+
+      - restore_cache:
+          key: yarn-v1-{{ checksum "~/checkout/react-native/yarn.lock" }}-{{ arch }}
+
+      - restore_cache:
+          key: node-v1-{{ checksum "~/checkout/react-native/package.json" }}-{{ arch }}
+
+      - run: cd checkout/react-native && yarn install
+
+      - save_cache:
+          key: yarn-v1-{{ checksum "~/checkout/react-native/yarn.lock" }}-{{ arch }}
+          paths:
+            - ~/.cache/yarn
+
+      - save_cache:
+          key: node-v1-{{ checksum "~/checkout/react-native/package.json" }}-{{ arch }}
+          paths:
+            - node_modules
+
+      - run: yarn run "test CI"
+
+      - persist_to_workspace:
+          root: ~/
+          paths:
+            - checkout/react-native/node_modules
+
+  android:
+    working_directory: ~/
+    docker:
+      - image: circleci/android:api-28-node8-alpha
+    steps:
+      - checkout:
+          path: ~/checkout/
+
+      - attach_workspace:
+          at: ~/
+      - run:
+          command: |
+            cd ~/checkout/react-native/android/app
+            openssl aes-256-cbc -in meetnative.keyencrypted -out meetnative.keystore -d -pass env:MEETNATIVE_KEYSTORE_DECRYPT
+      - run: yes | sdkmanager --licenses || exit 0
+      - run: yes | sdkmanager --update || exit 0
+      - restore_cache:
+          key: jars-{{ checksum "~/checkout/react-native/android/build.gradle" }}-{{ checksum  "~/checkout/react-native/android/app/build.gradle" }}
+      - run:
+          name: Download Dependencies
+          command: |
+            cd checkout/react-native/android
+            chmod +x gradlew
+            ./gradlew androidDependencies
+      - save_cache:
+          paths:
+            - ~/.gradle
+          key: jars-{{ checksum "~/checkout/react-native/android/build.gradle" }}-{{ checksum  "~/checkout/react-native/android/app/build.gradle" }}
+
+      - run:
+          command: |
+            cd checkout/react-native/android
+            chmod +x gradlew
+            ls -l
+            ./gradlew assembleRelease
+      - run:
+          command: |
+            cp ~/checkout/react-native/android/app/build/outputs/apk/release/app-release.apk ./app-release.apk
+      - store_artifacts:
+          path: ~/app-release.apk
+
+
+  ios:
+    macos:
+      xcode: "9.0"
+    working_directory: ~/
+
+    # use a --login shell so our "set Ruby version" command gets picked up for later steps
+    shell: /bin/bash --login -o pipefail
+
+    steps:
+      - checkout:
+          path: ~/checkout/
+      - run:
+          name: set Ruby version
+          command:  cd ~/checkout/react-native && echo "ruby-2.4" > ~/.ruby-version
+
+      - restore_cache:
+          key: yarn-v1-{{ checksum "~/checkout/react-native/yarn.lock" }}-{{ arch }}
+
+      - restore_cache:
+          key: node-v1-{{ checksum "~/checkout/react-native/package.json" }}-{{ arch }}
+
+      # not using a workspace here as Node and Yarn versions
+      # differ between our macOS executor image and the Docker containers above
+      - run: cd ~/checkout/react-native && yarn install
+
+      - save_cache:
+          key: yarn-v1-{{ checksum "~/checkout/react-native/yarn.lock" }}-{{ arch }}
+          paths:
+            - ~/.cache/yarn
+
+      - save_cache:
+          key: node-v1-{{ checksum "~/checkout/react-native/package.json" }}-{{ arch }}
+          paths:
+            - node_modules
+
+      - restore_cache:
+          key: bundle-v1-{{ checksum "~/checkout/react-native/ios/Gemfile.lock" }}-{{ arch }}
+
+      - run:
+          command: cd ~/checkout/react-native/ios && bundle install
+
+      - save_cache:
+          key: bundle-v1-{{ checksum "~/checkout/react-native/ios/ios/Gemfile.lock" }}-{{ arch }}
+          paths:
+            - vendor/bundle
+
+workflows:
+  version: 2
+  node-android-ios:
+    jobs:
+      - node
+      - android:
+          requires:
+            - node
+      - ios:
+          requires:
+            - node

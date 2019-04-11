@@ -1,0 +1,323 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Age Selector 1`] = `
+<Styled(PickerNB)
+  iosIcon={
+    <Styled(Icon)
+      name="arrow-down"
+    />
+  }
+  mode="dropdown"
+  onValueChange={[Function]}
+  placeholder="Select your age"
+  placeholderIconColor="#6d6d6d"
+  placeholderStyle={
+    Object {
+      "color": "#6d6d6d",
+    }
+  }
+  selectedValue={1}
+  style={
+    Object {
+      "width": undefined,
+    }
+  }
+  testID="picker"
+>
+  <Item
+    key="18"
+    label="18 yo"
+    value={18}
+  />
+  <Item
+    key="19"
+    label="19 yo"
+    value={19}
+  />
+  <Item
+    key="20"
+    label="20 yo"
+    value={20}
+  />
+  <Item
+    key="21"
+    label="21 yo"
+    value={21}
+  />
+  <Item
+    key="22"
+    label="22 yo"
+    value={22}
+  />
+  <Item
+    key="23"
+    label="23 yo"
+    value={23}
+  />
+  <Item
+    key="24"
+    label="24 yo"
+    value={24}
+  />
+  <Item
+    key="25"
+    label="25 yo"
+    value={25}
+  />
+  <Item
+    key="26"
+    label="26 yo"
+    value={26}
+  />
+  <Item
+    key="27"
+    label="27 yo"
+    value={27}
+  />
+  <Item
+    key="28"
+    label="28 yo"
+    value={28}
+  />
+  <Item
+    key="29"
+    label="29 yo"
+    value={29}
+  />
+  <Item
+    key="30"
+    label="30 yo"
+    value={30}
+  />
+  <Item
+    key="31"
+    label="31 yo"
+    value={31}
+  />
+  <Item
+    key="32"
+    label="32 yo"
+    value={32}
+  />
+  <Item
+    key="33"
+    label="33 yo"
+    value={33}
+  />
+  <Item
+    key="34"
+    label="34 yo"
+    value={34}
+  />
+  <Item
+    key="35"
+    label="35 yo"
+    value={35}
+  />
+  <Item
+    key="36"
+    label="36 yo"
+    value={36}
+  />
+  <Item
+    key="37"
+    label="37 yo"
+    value={37}
+  />
+  <Item
+    key="38"
+    label="38 yo"
+    value={38}
+  />
+  <Item
+    key="39"
+    label="39 yo"
+    value={39}
+  />
+  <Item
+    key="40"
+    label="40 yo"
+    value={40}
+  />
+  <Item
+    key="41"
+    label="41 yo"
+    value={41}
+  />
+  <Item
+    key="42"
+    label="42 yo"
+    value={42}
+  />
+  <Item
+    key="43"
+    label="43 yo"
+    value={43}
+  />
+  <Item
+    key="44"
+    label="44 yo"
+    value={44}
+  />
+  <Item
+    key="45"
+    label="45 yo"
+    value={45}
+  />
+  <Item
+    key="46"
+    label="46 yo"
+    value={46}
+  />
+  <Item
+    key="47"
+    label="47 yo"
+    value={47}
+  />
+  <Item
+    key="48"
+    label="48 yo"
+    value={48}
+  />
+  <Item
+    key="49"
+    label="49 yo"
+    value={49}
+  />
+  <Item
+    key="50"
+    label="50 yo"
+    value={50}
+  />
+  <Item
+    key="51"
+    label="51 yo"
+    value={51}
+  />
+  <Item
+    key="52"
+    label="52 yo"
+    value={52}
+  />
+  <Item
+    key="53"
+    label="53 yo"
+    value={53}
+  />
+  <Item
+    key="54"
+    label="54 yo"
+    value={54}
+  />
+  <Item
+    key="55"
+    label="55 yo"
+    value={55}
+  />
+  <Item
+    key="56"
+    label="56 yo"
+    value={56}
+  />
+  <Item
+    key="57"
+    label="57 yo"
+    value={57}
+  />
+  <Item
+    key="58"
+    label="58 yo"
+    value={58}
+  />
+  <Item
+    key="59"
+    label="59 yo"
+    value={59}
+  />
+  <Item
+    key="60"
+    label="60 yo"
+    value={60}
+  />
+  <Item
+    key="61"
+    label="61 yo"
+    value={61}
+  />
+  <Item
+    key="62"
+    label="62 yo"
+    value={62}
+  />
+  <Item
+    key="63"
+    label="63 yo"
+    value={63}
+  />
+  <Item
+    key="64"
+    label="64 yo"
+    value={64}
+  />
+  <Item
+    key="65"
+    label="65 yo"
+    value={65}
+  />
+  <Item
+    key="66"
+    label="66 yo"
+    value={66}
+  />
+  <Item
+    key="67"
+    label="67 yo"
+    value={67}
+  />
+  <Item
+    key="68"
+    label="68 yo"
+    value={68}
+  />
+  <Item
+    key="69"
+    label="69 yo"
+    value={69}
+  />
+  <Item
+    key="70"
+    label="70 yo"
+    value={70}
+  />
+  <Item
+    key="71"
+    label="71 yo"
+    value={71}
+  />
+  <Item
+    key="72"
+    label="72 yo"
+    value={72}
+  />
+  <Item
+    key="73"
+    label="73 yo"
+    value={73}
+  />
+  <Item
+    key="74"
+    label="74 yo"
+    value={74}
+  />
+  <Item
+    key="75"
+    label="75 yo"
+    value={75}
+  />
+  <Item
+    key="76"
+    label="76 yo"
+    value={76}
+  />
+</Styled(PickerNB)>
+`;

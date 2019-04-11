@@ -1,0 +1,130 @@
+es	2019-03-20_15-52-54
+[..\src\components\lang]	
+New Message	Nuevo mensaje
+Display a notification when you receive a new message	Mostrar una notificación cuando reciba un nuevo mensaje
+Save your profile info before to start	Guarda la información de tu perfil antes de comenzar
+Profile	Perfil
+	
+[..\src\components\login\lang]	
+Login with your email	Ingresa con tu email
+Email	Email
+Password	Contraseña
+Login	Iniciar sesión
+Forgotten password	Contraseña olvidada
+E-mail is not valid!	¡El correo no es válido!
+E-mail is required!	¡Correo electronico es requerido!
+Password has to be longer than 6 characters!	¡La contraseña debe tener más de 6 caracteres!
+Password is required!	¡Se requiere contraseña!
+Login with Facebook	Iniciar sesión con Facebook
+Sign in impossible	Inicia sesión imposible
+Login with Google	Inicia sesión con Google
+Connection impossible : internet is not available.	Conexión imposible: internet no está disponible.
+Connection impossible.	Conexión imposible.
+This email account exist, but the password is wrong.	Esta cuenta de correo electrónico existe, pero la contraseña es incorrecta.
+The password is too weak.	La contraseña es demasiado débil.
+The email address is not valid.	La dirección de correo electrónico no es válida.
+The connection is impossible.	La conexión es imposible.
+Reset password	Restablecer la contraseña
+Instruction has been sent to your email: {email}	La instrucción ha sido enviada a su correo electrónico: {email}
+OK	OK
+The reset is impossible.	El reinicio es imposible.
+This email account doesn't exist.	Esta cuenta de correo electrónico no existe.
+Reset the password	Restablecer la contraseña
+	
+[..\src\components\partners\lang]	
+Unread message	Mensaje no leído
+Contact	Contacto
+yo	añ
+Read message	Mensaje leído
+Impossible to load new messages	Imposible cargar nuevos mensajes.
+You have no partner yet	Aún no tienes pareja
+Last Messages	Últimos mensajes
+	
+[..\src\components\profile\lang]	
+{age} yo	{age} yo
+Select your age	Selecciona tu edad
+Select your gender	Selecciona tu género
+Male	Masculino
+Female	Hembra
+Search	Buscar
+Current location	Ubicación actual
+Langage to learn	Langage para aprender
+Add a langage	Añadir una lengua
+Langage to teach	Langage para enseñar
+Logout	Cerrar sesión
+Impossible to load the profile	Imposible cargar el perfil.
+Pseudo	Seudo
+Profession	Profesión
+City	Ciudad
+Update Profile	Actualización del perfil
+Update impossible	Actualización imposible
+Pseudo has to be longer than 3 characters!	¡El pseudo tiene que tener más de 3 caracteres!
+Pseudo is required!	Se requiere pseudo!
+Profession has to be longer than 3 characters!	¡La profesión debe tener más de 3 caracteres!
+Profession is required!	¡Se requiere profesión!
+Please select a city	Por favor seleccione una ciudad
+You couldn't teach and learn {lang}	No pudiste enseñar y aprender {lang}
+	
+[..\src\components\room\lang]	
+Info	Información
+yo	añ
+Speak	Hablar
+Learn	Aprender
+Message	Mensaje
+Chat	Charla
+	
+[..\src\components\search\lang]	
+Contact	Contacto
+yo	añ
+Speak	Hablar
+Learn	Aprender
+Impossible to load profiles	Imposible cargar perfiles.
+No user match your profile	Ningún usuario coincide con tu perfil
+Find a partner	Encuentra un compañero
+	
+[..\src\lang]	
+English	Inglés
+French	Francés
+German	Alemán
+Italian	Italiano
+Spanish	Español
+Dutch	Holandés
+Polish	Polaco
+Romanian	Rumano
+Russian	Ruso
+Czech	Checo
+Hungarian	Húngaro
+Portuguese	Portugués
+Greek	Griego
+Swedish	Sueco
+Bulgarian	Búlgaro
+Catalan	Catalán
+Danish	Danés
+Slovak	Eslovaco
+Finnish	Finlandés
+Arabic	Arábica
+Lithuanian	Lituano
+Turkish	Turco
+Galician	Gallego
+Slovenian	Esloveno
+Latvian	Letón
+Croatian	Croata
+Basque	Vasco
+Estonian	Estonio
+Urdu	Urdu
+Irish Gaelic	Gaélico irlandés
+Hindi	Hindi
+Chinese	Chino
+Welsh	Galés
+Japanese	Japonés
+Maltese	Maltés
+Luxembourgish	Luxemburgués
+Korean	Coreano
+Scottish Gaelic	Gaélico escocés
+Beginner A1/A2	Principiante A1 / A2
+Intermediate B1/B2	Intermedio B1 / B2
+Fluent C1/C2	Fluido C1 / C2
+Unknow	Desconocido
+Native	Nativo
+Bilingual	Bilingüe
+Fluent	Fluido

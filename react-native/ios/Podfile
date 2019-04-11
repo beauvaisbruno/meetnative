@@ -1,0 +1,57 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'meetnative' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+  pod 'React', :path => '../node_modules/react-native', :subspecs => [
+  'Core',
+  'CxxBridge',
+  'DevSupport',
+  'RCTText',
+  'RCTNetwork',
+  'RCTWebSocket',
+  'RCTAnimation',
+  # Add any other subspecs you want to use in your project
+  ]
+  pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+  pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
+  pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
+  pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
+  # Pods for meetnative
+# Required by RNFirebase
+pod 'Firebase/Core', '~> 5.15.0'
+pod 'Firebase/Auth', '~> 5.15.0'
+pod 'Firebase/Messaging', '~> 5.15.0'
+pod 'Firebase/Firestore', '~> 5.15.0'
+
+
+pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+
+pod 'RNLocalize', :path => '../node_modules/react-native-localize'
+pod 'GoogleSignIn', '~> 4.4.0'
+
+#  pod 'react-native-fbsdk', :path => '../node_modules/react-native-fbsdk'
+pod 'FBSDKCoreKit', '~> 4.40.0'
+pod 'FBSDKShareKit', '~> 4.40.0'
+pod 'FBSDKLoginKit', '~> 4.40.0'
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    
+    # The following is needed to ensure the "archive" step works in XCode.
+    # It removes React & Yoga from the Pods project, as it is already included in the main project.
+    # Without this, you'd see errors when you archive like:
+    # "Multiple commands produce ... libReact.a"
+    # "Multiple commands produce ... libyoga.a"
+    
+    targets_to_ignore = %w(React yoga RNLocalize libRNLocalize RNGestureHandler)
+    
+    if targets_to_ignore.include? target.name
+      target.remove_from_project
+    end
+    
+  end
+end
+
+end

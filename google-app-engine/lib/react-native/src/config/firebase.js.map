@@ -1,0 +1,1 @@
+{"version":3,"file":"firebase.js","sourceRoot":"","sources":["../../../../../react-native/src/config/firebase.ts"],"names":[],"mappings":";;;;;AAAA,aAAa;AACb,2EAA0D;AAC1D,8EAAoD;AACpD,kFAA6C;AAEhC,QAAA,eAAe,GAAG,GAAG,EAAE;IAClC,yCAAY,CAAC,SAAS,CAAC;QACrB,WAAW,EACT,0EAA0E;KAC7E,CAAC,CAAC;AACL,CAAC,CAAC;AAEW,QAAA,QAAQ,GAAG,IAAI,6BAAiB,CAAC,+BAAQ,CAAC,CAAC"}

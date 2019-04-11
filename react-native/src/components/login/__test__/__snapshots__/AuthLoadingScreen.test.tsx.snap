@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component 1`] = `
+<View>
+  <Loading />
+  <StatusBar
+    animated={false}
+    barStyle="default"
+    showHideTransition="fade"
+  />
+</View>
+`;

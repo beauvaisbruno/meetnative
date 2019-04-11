@@ -1,0 +1,130 @@
+it	2019-03-20_15-52-54
+[..\src\components\lang]	
+New Message	Nuovo messaggio
+Display a notification when you receive a new message	Visualizza una notifica quando ricevi un nuovo messaggio
+Save your profile info before to start	Salva le informazioni del tuo profilo prima di iniziare
+Profile	Profilo
+	
+[..\src\components\login\lang]	
+Login with your email	Accedi con la tua email
+Email	E-mail
+Password	Password
+Login	Accesso
+Forgotten password	Password dimenticata
+E-mail is not valid!	L'email non è valida!
+E-mail is required!	E-mail è richiesta!
+Password has to be longer than 6 characters!	La password deve essere più lunga di 6 caratteri!
+Password is required!	E 'richiesta la password!
+Login with Facebook	Accedi con facebook
+Sign in impossible	Accedi impossibile
+Login with Google	Accedi con Google
+Connection impossible : internet is not available.	Connessione impossibile: internet non è disponibile.
+Connection impossible.	Connessione impossibile.
+This email account exist, but the password is wrong.	Questo account e-mail esiste, ma la password è sbagliata.
+The password is too weak.	La password è troppo debole.
+The email address is not valid.	L'indirizzo email non è valido.
+The connection is impossible.	La connessione è impossibile.
+Reset password	Resetta la password
+Instruction has been sent to your email: {email}	L'istruzione è stata inviata alla tua email: {email}
+OK	OK
+The reset is impossible.	Il reset è impossibile.
+This email account doesn't exist.	Questo account email non esiste.
+Reset the password	Reimposta la password
+	
+[..\src\components\partners\lang]	
+Unread message	Messaggio non letto
+Contact	Contatto
+yo	an
+Read message	Leggi il messaggio
+Impossible to load new messages	Impossibile caricare nuovi messaggi
+You have no partner yet	Non hai ancora un partner
+Last Messages	Ultimi messaggi
+	
+[..\src\components\profile\lang]	
+{age} yo	{age} anni
+Select your age	Seleziona la tua età
+Select your gender	Seleziona il tuo sesso
+Male	Maschio
+Female	Femmina
+Search	Ricerca
+Current location	Posizione attuale
+Langage to learn	Langage per imparare
+Add a langage	Aggiungi un langage
+Langage to teach	Langage per insegnare
+Logout	Disconnettersi
+Impossible to load the profile	Impossibile caricare il profilo
+Pseudo	Pseudo
+Profession	Professione
+City	Città
+Update Profile	Aggiorna il profilo
+Update impossible	Aggiornamento impossibile
+Pseudo has to be longer than 3 characters!	Lo pseudo deve essere più lungo di 3 caratteri!
+Pseudo is required!	Pseudo è richiesto!
+Profession has to be longer than 3 characters!	La professione deve essere più lunga di 3 caratteri!
+Profession is required!	La professione è richiesta!
+Please select a city	Si prega di selezionare una città
+You couldn't teach and learn {lang}	Non potresti insegnare e imparare {lang}
+	
+[..\src\components\room\lang]	
+Info	Informazioni
+yo	an
+Speak	Parlare
+Learn	Imparare
+Message	Messaggio
+Chat	Chiacchierare
+	
+[..\src\components\search\lang]	
+Contact	Contatto
+yo	an
+Speak	Parlare
+Learn	Imparare
+Impossible to load profiles	Impossibile caricare i profili
+No user match your profile	Nessun utente corrisponde al tuo profilo
+Find a partner	Trova un partner
+	
+[..\src\lang]	
+English	Inglese
+French	Francese
+German	Tedesco
+Italian	Italiano
+Spanish	Spagnolo
+Dutch	Olandese
+Polish	Polacco
+Romanian	Rumeno
+Russian	Russo
+Czech	Ceco
+Hungarian	Ungherese
+Portuguese	Portoghese
+Greek	Greco
+Swedish	Svedese
+Bulgarian	Bulgaro
+Catalan	Catalano
+Danish	Danese
+Slovak	Slovacco
+Finnish	Finlandese
+Arabic	Arabo
+Lithuanian	Lituano
+Turkish	Turco
+Galician	Galiziano
+Slovenian	Sloveno
+Latvian	Lettone
+Croatian	Croato
+Basque	Basco
+Estonian	Estone
+Urdu	Urdu
+Irish Gaelic	Gaelico irlandese
+Hindi	Hindi
+Chinese	Cinese
+Welsh	Gallese
+Japanese	Giapponese
+Maltese	Maltese
+Luxembourgish	Lussemburghese
+Korean	Coreano
+Scottish Gaelic	Gaelico Scozzese
+Beginner A1/A2	Principiante A1 / A2
+Intermediate B1/B2	Intermedio B1 / B2
+Fluent C1/C2	Fluente C1 / C2
+Unknow	Unknow
+Native	Nativo
+Bilingual	Bilingue
+Fluent	Fluente

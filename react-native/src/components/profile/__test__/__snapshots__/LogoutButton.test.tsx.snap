@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component 1`] = `
+<Styled(ViewNB)
+  padder={true}
+>
+  <Styled(Button)
+    block={true}
+    onPress={[Function]}
+    primary={true}
+    rounded={true}
+    testID="logoutButton"
+  >
+    <Styled(Icon)
+      color="white"
+      fontSize={30}
+      name="logout"
+      type="AntDesign"
+    />
+    <Styled(Text)>
+      Logout
+    </Styled(Text)>
+  </Styled(Button)>
+</Styled(ViewNB)>
+`;

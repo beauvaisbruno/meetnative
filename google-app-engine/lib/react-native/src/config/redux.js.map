@@ -1,0 +1,1 @@
+{"version":3,"file":"redux.js","sourceRoot":"","sources":["../../../../../react-native/src/config/redux.ts"],"names":[],"mappings":";;;;;AAAA,4DAA8C;AAC9C,iCAAqD;AACrD,kDAA+C;AAC/C,uEAA+D;AAC/D,2DAAmC;AAEnC,MAAM,cAAc,GAAG,oBAAoB,EAAE,CAAC;AACjC,QAAA,KAAK,GAAG,mBAAW,CAC9B,2BAAY,EACZ,8CAAmB,CAAC,uBAAe,CAAC,cAAc,CAAC,CAAC,CACrD,CAAC;AACF,cAAc,CAAC,GAAG,CAAC,kBAAQ,CAAC,CAAC"}

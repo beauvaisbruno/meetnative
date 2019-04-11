@@ -1,0 +1,130 @@
+fr	2019-03-20_15-52-54
+[..\src\components\lang]	
+New Message	Nouveau Message
+Display a notification when you receive a new message	Affiche une notification lors de la réception d'un nouveau message
+Save your profile info before to start	Enregistrez vos informations de profile pour pouvoir commencer
+Profile	Profile
+	
+[..\src\components\login\lang]	
+Login with your email	Connexion par email
+Email	Email
+Password	Mot de passe
+Login	Se connecter
+Forgotten password	Mot de passe oublié
+E-mail is not valid!	Email mal formaté !
+E-mail is required!	Email requis
+Password has to be longer than 6 characters!	Le mot de passe doit avoir au moins 6 caractères !
+Password is required!	Mot de passe requis !
+Login with Facebook	Connexion avec Facebook
+Sign in impossible	Connexion impossible
+Login with Google	Connexion avec Google
+Connection impossible : internet is not available.	Connexion impossible : internet non disponible.
+Connection impossible.	Connexion impossible.
+This email account exist, but the password is wrong.	Cet email existe, mais le mot de passe est erroné.
+The password is too weak.	Le mot de passe est trop faible.
+The email address is not valid.	L'adresse email est mal formaté.
+The connection is impossible.	La connexion est impossible.
+Reset password	Réinitialisation mot de passe
+Instruction has been sent to your email: {email}	Suivez les instructions envoyées sur votre email: {email}
+OK	OK
+The reset is impossible.	Réinitialisation impossible.
+This email account doesn't exist.	Ce compte email n'existe pas.
+Reset the password	Réinitialiser le mot de passe
+	
+[..\src\components\partners\lang]	
+Unread message	Nouveau Message
+Contact	Contact
+yo	ans
+Read message	Dernier message
+Impossible to load new messages	Chargement des messages impossible.
+You have no partner yet	Aucune discussion ouverte pour l'instant.
+Last Messages	Derniers Messages
+	
+[..\src\components\profile\lang]	
+{age} yo	{age} ans
+Select your age	Sélectionnez votre âge
+Select your gender	Sélectionnez votre genre
+Male	Homme
+Female	Femme
+Search	Rechercher
+Current location	Position Actuelle
+Langage to learn	Apprentissage des langues
+Add a langage	Ajouter une langue
+Langage to teach	Enseignement des langues
+Logout	Se déconnecter
+Impossible to load the profile	Vos informations de profile ne sont pas accessible
+Pseudo	Pseudo
+Profession	Profession
+City	Ville
+Update Profile	Mettre à jour le profile
+Update impossible	Mise à jour impossible
+Pseudo has to be longer than 3 characters!	Le pseudo doit faire plus de 3 caractères !
+Pseudo is required!	Un pseudo est requis !
+Profession has to be longer than 3 characters!	La profession doit faire plus de 3 caractères !
+Profession is required!	Une profession est requise !
+Please select a city	Sélectionnez une ville
+You couldn't teach and learn {lang}	Vous ne pouvez pas apprendre et enseigner : {lang}
+	
+[..\src\components\room\lang]	
+Info	Info
+yo	ans
+Speak	Parle
+Learn	Apprend
+Message	Message
+Chat	Discussion
+	
+[..\src\components\search\lang]	
+Contact	Contact
+yo	ans
+Speak	Apprend
+Learn	Message
+Impossible to load profiles	Impossible de charger les profiles
+No user match your profile	Aucun utilisateur vous correspond
+Find a partner	Trouver un partenaire
+	
+[..\src\lang]	
+English	Anglais
+French	Français
+German	Allemand
+Italian	Italien
+Spanish	Espagnol
+Dutch	Néerlandais
+Polish	Polonais
+Romanian	Roumain
+Russian	Russe
+Czech	Tchèque
+Hungarian	Hongrois
+Portuguese	Portugais
+Greek	Grec
+Swedish	Suédois
+Bulgarian	Bulgare
+Catalan	Catalan
+Danish	Danois
+Slovak	Slovaque
+Finnish	Finlandais
+Arabic	Arabe
+Lithuanian	Lituanien
+Turkish	Turc
+Galician	Galicien
+Slovenian	Slovène
+Latvian	Letton
+Croatian	Croate
+Basque	Basque
+Estonian	Estonien
+Urdu	Ourdou
+Irish Gaelic	Gaélique Irlandais
+Hindi	Hindi
+Chinese	Chinois
+Welsh	Gallois
+Japanese	Japonais
+Maltese	Maltais
+Luxembourgish	Luxembourgeois
+Korean	Coréen
+Scottish Gaelic	Gaélique Ecossais
+Beginner A1/A2	Débutant A1/A2
+Intermediate B1/B2	Intermédiaire B1/B2
+Fluent C1/C2	Courant C1/C2
+Unknow	Inconnu
+Native	Natif
+Bilingual	Bilingue
+Fluent	Courant

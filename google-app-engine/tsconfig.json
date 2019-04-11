@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "lib": ["es6", "dom", "esnext.asynciterable"],
+    "target": "es2017",
+    "outDir": "lib",
+    "jsx": "react",
+    "module": "commonjs",
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": false
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "./node_modules/*"
+  ]
+}

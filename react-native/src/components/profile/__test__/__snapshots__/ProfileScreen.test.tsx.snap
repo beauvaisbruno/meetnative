@@ -1,0 +1,1461 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormUi 1`] = `
+<Styled(ViewNB)>
+  <Styled(ViewNB)
+    padder={true}
+  >
+    <Styled(Item)
+      stackedLabel={true}
+    >
+      <Styled(Label)>
+        Pseudo
+      </Styled(Label)>
+      <Styled(Input)
+        onBlur={[Function]}
+        onChangeText={[MockFunction]}
+        value=""
+      />
+    </Styled(Item)>
+    <Styled(Item)
+      stackedLabel={true}
+    >
+      <Styled(Label)>
+        Profession
+      </Styled(Label)>
+      <Styled(Input)
+        onBlur={[Function]}
+        onChangeText={[MockFunction]}
+        value=""
+      />
+    </Styled(Item)>
+    <Styled(ViewNB)
+      style={
+        Object {
+          "borderBottomColor": "#D9D5DC",
+          "borderBottomWidth": 2,
+          "marginTop": 5,
+        }
+      }
+    >
+      <Styled(Text)
+        style={
+          Object {
+            "color": "#575757",
+            "fontSize": 15,
+            "marginLeft": 4,
+          }
+        }
+      >
+        City
+      </Styled(Text)>
+      <Component
+        city=""
+        onChange={[Function]}
+      />
+    </Styled(ViewNB)>
+    <Component
+      onChange={[Function]}
+      value={21}
+    />
+    <withNavigation(AvatarSelector)
+      onChange={[Function]}
+      value="manchots"
+    />
+    <Component
+      onChange={[Function]}
+      value={true}
+    />
+    <Component
+      languagesToLearn={
+        Object {
+          "english": "beginner",
+        }
+      }
+      onChange={[Function]}
+    />
+    <Component
+      languagesToTeach={
+        Object {
+          "english": "native",
+        }
+      }
+      onChange={[Function]}
+    />
+    <Styled(ViewNB)
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        }
+      }
+    />
+  </Styled(ViewNB)>
+  <Styled(ViewNB)
+    padder={true}
+  >
+    <Styled(Button)
+      block={true}
+      disabled={false}
+      onPress={[Function]}
+      rounded={true}
+      success={true}
+      testID="updateBtn"
+    >
+      <Styled(Icon)
+        color="white"
+        fontSize={30}
+        name="cloud-sync"
+        type="MaterialCommunityIcons"
+      />
+      <Styled(Text)>
+        Update Profile
+      </Styled(Text)>
+    </Styled(Button)>
+  </Styled(ViewNB)>
+</Styled(ViewNB)>
+`;
+
+exports[`FormUi 2`] = `
+<Styled(ViewNB)>
+  <Styled(ViewNB)
+    padder={true}
+  >
+    <Loading />
+    <Styled(Item)
+      stackedLabel={true}
+    >
+      <Styled(Label)>
+        Pseudo
+      </Styled(Label)>
+      <Styled(Input)
+        onBlur={[Function]}
+        onChangeText={[MockFunction]}
+        value=""
+      />
+    </Styled(Item)>
+    <Styled(Item)
+      stackedLabel={true}
+    >
+      <Styled(Label)>
+        Profession
+      </Styled(Label)>
+      <Styled(Input)
+        onBlur={[Function]}
+        onChangeText={[MockFunction]}
+        value=""
+      />
+    </Styled(Item)>
+    <Styled(ViewNB)
+      style={
+        Object {
+          "borderBottomColor": "#D9D5DC",
+          "borderBottomWidth": 2,
+          "marginTop": 5,
+        }
+      }
+    >
+      <Styled(Text)
+        style={
+          Object {
+            "color": "#575757",
+            "fontSize": 15,
+            "marginLeft": 4,
+          }
+        }
+      >
+        City
+      </Styled(Text)>
+      <Component
+        city=""
+        onChange={[Function]}
+      />
+    </Styled(ViewNB)>
+    <Component
+      onChange={[Function]}
+      value={21}
+    />
+    <withNavigation(AvatarSelector)
+      onChange={[Function]}
+      value="manchots"
+    />
+    <Component
+      onChange={[Function]}
+      value={true}
+    />
+    <Component
+      languagesToLearn={
+        Object {
+          "english": "beginner",
+        }
+      }
+      onChange={[Function]}
+    />
+    <Component
+      languagesToTeach={
+        Object {
+          "english": "native",
+        }
+      }
+      onChange={[Function]}
+    />
+    <Styled(ViewNB)
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        }
+      }
+    />
+  </Styled(ViewNB)>
+  <Styled(ViewNB)
+    padder={true}
+  >
+    <Styled(Button)
+      block={true}
+      disabled={false}
+      onPress={[Function]}
+      rounded={true}
+      success={true}
+      testID="updateBtn"
+    >
+      <Styled(Icon)
+        color="white"
+        fontSize={30}
+        name="cloud-sync"
+        type="MaterialCommunityIcons"
+      />
+      <Styled(Text)>
+        Update Profile
+      </Styled(Text)>
+    </Styled(Button)>
+  </Styled(ViewNB)>
+</Styled(ViewNB)>
+`;
+
+exports[`FormUi 3`] = `
+<Styled(ViewNB)>
+  <Styled(ViewNB)
+    padder={true}
+  >
+    <Styled(Text)
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#d9534f",
+        }
+      }
+    >
+      Impossible to load the profile
+    </Styled(Text)>
+    <Styled(Item)
+      stackedLabel={true}
+    >
+      <Styled(Label)>
+        Pseudo
+      </Styled(Label)>
+      <Styled(Input)
+        onBlur={[Function]}
+        onChangeText={[MockFunction]}
+        value=""
+      />
+    </Styled(Item)>
+    <Styled(Item)
+      stackedLabel={true}
+    >
+      <Styled(Label)>
+        Profession
+      </Styled(Label)>
+      <Styled(Input)
+        onBlur={[Function]}
+        onChangeText={[MockFunction]}
+        value=""
+      />
+    </Styled(Item)>
+    <Styled(ViewNB)
+      style={
+        Object {
+          "borderBottomColor": "#D9D5DC",
+          "borderBottomWidth": 2,
+          "marginTop": 5,
+        }
+      }
+    >
+      <Styled(Text)
+        style={
+          Object {
+            "color": "#575757",
+            "fontSize": 15,
+            "marginLeft": 4,
+          }
+        }
+      >
+        City
+      </Styled(Text)>
+      <Component
+        city=""
+        onChange={[Function]}
+      />
+    </Styled(ViewNB)>
+    <Component
+      onChange={[Function]}
+      value={21}
+    />
+    <withNavigation(AvatarSelector)
+      onChange={[Function]}
+      value="manchots"
+    />
+    <Component
+      onChange={[Function]}
+      value={true}
+    />
+    <Component
+      languagesToLearn={
+        Object {
+          "english": "beginner",
+        }
+      }
+      onChange={[Function]}
+    />
+    <Component
+      languagesToTeach={
+        Object {
+          "english": "native",
+        }
+      }
+      onChange={[Function]}
+    />
+    <Styled(ViewNB)
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        }
+      }
+    />
+  </Styled(ViewNB)>
+  <Styled(ViewNB)
+    padder={true}
+  >
+    <Styled(Button)
+      block={true}
+      disabled={false}
+      onPress={[Function]}
+      rounded={true}
+      success={true}
+      testID="updateBtn"
+    >
+      <Styled(Icon)
+        color="white"
+        fontSize={30}
+        name="cloud-sync"
+        type="MaterialCommunityIcons"
+      />
+      <Styled(Text)>
+        Update Profile
+      </Styled(Text)>
+    </Styled(Button)>
+  </Styled(ViewNB)>
+</Styled(ViewNB)>
+`;
+
+exports[`FormUi 4`] = `
+<Styled(ViewNB)>
+  <Styled(ViewNB)
+    padder={true}
+  >
+    <Styled(Text)
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#d9534f",
+        }
+      }
+    >
+      Impossible to load the profile
+    </Styled(Text)>
+    <Styled(Item)
+      stackedLabel={true}
+    >
+      <Styled(Label)>
+        Pseudo
+      </Styled(Label)>
+      <Styled(Input)
+        onBlur={[Function]}
+        onChangeText={[MockFunction]}
+        value=""
+      />
+    </Styled(Item)>
+    <Styled(Item)
+      stackedLabel={true}
+    >
+      <Styled(Label)>
+        Profession
+      </Styled(Label)>
+      <Styled(Input)
+        onBlur={[Function]}
+        onChangeText={[MockFunction]}
+        value=""
+      />
+    </Styled(Item)>
+    <Styled(ViewNB)
+      style={
+        Object {
+          "borderBottomColor": "#D9D5DC",
+          "borderBottomWidth": 2,
+          "marginTop": 5,
+        }
+      }
+    >
+      <Styled(Text)
+        style={
+          Object {
+            "color": "#575757",
+            "fontSize": 15,
+            "marginLeft": 4,
+          }
+        }
+      >
+        City
+      </Styled(Text)>
+      <Component
+        city=""
+        onChange={[Function]}
+      />
+    </Styled(ViewNB)>
+    <Component
+      onChange={[Function]}
+      value={21}
+    />
+    <withNavigation(AvatarSelector)
+      onChange={[Function]}
+      value="manchots"
+    />
+    <Component
+      onChange={[Function]}
+      value={true}
+    />
+    <Component
+      languagesToLearn={
+        Object {
+          "english": "beginner",
+        }
+      }
+      onChange={[Function]}
+    />
+    <Component
+      languagesToTeach={
+        Object {
+          "english": "native",
+        }
+      }
+      onChange={[Function]}
+    />
+    <Styled(ViewNB)
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        }
+      }
+    />
+  </Styled(ViewNB)>
+  <Styled(ViewNB)
+    padder={true}
+  >
+    <Styled(Button)
+      block={true}
+      disabled={true}
+      onPress={[Function]}
+      rounded={true}
+      success={true}
+      testID="updateBtn"
+    >
+      <Component />
+      <Styled(Icon)
+        color="white"
+        fontSize={30}
+        name="spinner"
+        type="EvilIcons"
+      />
+      <Styled(Text)>
+        Update Profile
+      </Styled(Text)>
+    </Styled(Button)>
+  </Styled(ViewNB)>
+</Styled(ViewNB)>
+`;
+
+exports[`FormUi 5`] = `
+<Styled(ViewNB)>
+  <Styled(ViewNB)
+    padder={true}
+  >
+    <Styled(Text)
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#d9534f",
+        }
+      }
+    >
+      Impossible to load the profile
+    </Styled(Text)>
+    <Styled(Item)
+      stackedLabel={true}
+    >
+      <Styled(Label)>
+        Pseudo
+      </Styled(Label)>
+      <Styled(Input)
+        onBlur={[Function]}
+        onChangeText={[MockFunction]}
+        value=""
+      />
+    </Styled(Item)>
+    <Styled(Item)
+      stackedLabel={true}
+    >
+      <Styled(Label)>
+        Profession
+      </Styled(Label)>
+      <Styled(Input)
+        onBlur={[Function]}
+        onChangeText={[MockFunction]}
+        value=""
+      />
+    </Styled(Item)>
+    <Styled(ViewNB)
+      style={
+        Object {
+          "borderBottomColor": "#D9D5DC",
+          "borderBottomWidth": 2,
+          "marginTop": 5,
+        }
+      }
+    >
+      <Styled(Text)
+        style={
+          Object {
+            "color": "#575757",
+            "fontSize": 15,
+            "marginLeft": 4,
+          }
+        }
+      >
+        City
+      </Styled(Text)>
+      <Component
+        city=""
+        onChange={[Function]}
+      />
+    </Styled(ViewNB)>
+    <Component
+      onChange={[Function]}
+      value={21}
+    />
+    <withNavigation(AvatarSelector)
+      onChange={[Function]}
+      value="manchots"
+    />
+    <Component
+      onChange={[Function]}
+      value={true}
+    />
+    <Component
+      languagesToLearn={
+        Object {
+          "english": "beginner",
+        }
+      }
+      onChange={[Function]}
+    />
+    <Component
+      languagesToTeach={
+        Object {
+          "english": "native",
+        }
+      }
+      onChange={[Function]}
+    />
+    <Styled(ViewNB)
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        }
+      }
+    />
+  </Styled(ViewNB)>
+  <Styled(ViewNB)
+    padder={true}
+  >
+    <Styled(Button)
+      block={true}
+      disabled={false}
+      onPress={[Function]}
+      rounded={true}
+      success={true}
+      testID="updateBtn"
+    >
+      <Styled(Icon)
+        color="white"
+        fontSize={30}
+        name="cloud-sync"
+        type="MaterialCommunityIcons"
+      />
+      <Styled(Text)>
+        Update Profile
+      </Styled(Text)>
+    </Styled(Button)>
+    <Styled(Text)
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#d9534f",
+        }
+      }
+    >
+      Update impossible
+    </Styled(Text)>
+  </Styled(ViewNB)>
+</Styled(ViewNB)>
+`;
+
+exports[`FormUi 6`] = `
+<Styled(ViewNB)>
+  <Styled(ViewNB)
+    padder={true}
+  >
+    <Styled(Text)
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#d9534f",
+        }
+      }
+    >
+      Impossible to load the profile
+    </Styled(Text)>
+    <Styled(Item)
+      error={true}
+      stackedLabel={true}
+    >
+      <Styled(Label)>
+        Pseudo
+      </Styled(Label)>
+      <Styled(Input)
+        onBlur={[Function]}
+        onChangeText={[MockFunction]}
+        value=""
+      />
+    </Styled(Item)>
+    <Styled(Text)
+      style={
+        Object {
+          "color": "#d9534f",
+        }
+      }
+    >
+      error message
+    </Styled(Text)>
+    <Styled(Item)
+      stackedLabel={true}
+    >
+      <Styled(Label)>
+        Profession
+      </Styled(Label)>
+      <Styled(Input)
+        onBlur={[Function]}
+        onChangeText={[MockFunction]}
+        value=""
+      />
+    </Styled(Item)>
+    <Styled(ViewNB)
+      style={
+        Object {
+          "borderBottomColor": "#D9D5DC",
+          "borderBottomWidth": 2,
+          "marginTop": 5,
+        }
+      }
+    >
+      <Styled(Text)
+        style={
+          Object {
+            "color": "#575757",
+            "fontSize": 15,
+            "marginLeft": 4,
+          }
+        }
+      >
+        City
+      </Styled(Text)>
+      <Component
+        city=""
+        onChange={[Function]}
+      />
+    </Styled(ViewNB)>
+    <Component
+      onChange={[Function]}
+      value={21}
+    />
+    <withNavigation(AvatarSelector)
+      onChange={[Function]}
+      value="manchots"
+    />
+    <Component
+      onChange={[Function]}
+      value={true}
+    />
+    <Component
+      languagesToLearn={
+        Object {
+          "english": "beginner",
+        }
+      }
+      onChange={[Function]}
+    />
+    <Component
+      languagesToTeach={
+        Object {
+          "english": "native",
+        }
+      }
+      onChange={[Function]}
+    />
+    <Styled(ViewNB)
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Styled(Text)
+        style={
+          Object {
+            "color": "#d9534f",
+          }
+        }
+      >
+        error message
+      </Styled(Text)>
+    </Styled(ViewNB)>
+  </Styled(ViewNB)>
+  <Styled(ViewNB)
+    padder={true}
+  >
+    <Styled(Button)
+      block={true}
+      disabled={false}
+      onPress={[Function]}
+      rounded={true}
+      success={true}
+      testID="updateBtn"
+    >
+      <Styled(Icon)
+        color="white"
+        fontSize={30}
+        name="cloud-sync"
+        type="MaterialCommunityIcons"
+      />
+      <Styled(Text)>
+        Update Profile
+      </Styled(Text)>
+    </Styled(Button)>
+    <Styled(Text)
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#d9534f",
+        }
+      }
+    >
+      Update impossible
+    </Styled(Text)>
+  </Styled(ViewNB)>
+</Styled(ViewNB)>
+`;
+
+exports[`FormUi 7`] = `
+<Styled(ViewNB)>
+  <Styled(ViewNB)
+    padder={true}
+  >
+    <Styled(Text)
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#d9534f",
+        }
+      }
+    >
+      Impossible to load the profile
+    </Styled(Text)>
+    <Styled(Item)
+      stackedLabel={true}
+    >
+      <Styled(Label)>
+        Pseudo
+      </Styled(Label)>
+      <Styled(Input)
+        onBlur={[Function]}
+        onChangeText={[MockFunction]}
+        value=""
+      />
+    </Styled(Item)>
+    <Styled(Item)
+      error={true}
+      stackedLabel={true}
+    >
+      <Styled(Label)>
+        Profession
+      </Styled(Label)>
+      <Styled(Input)
+        onBlur={[Function]}
+        onChangeText={[MockFunction]}
+        value=""
+      />
+    </Styled(Item)>
+    <Styled(Text)
+      style={
+        Object {
+          "color": "#d9534f",
+        }
+      }
+    >
+      error message
+    </Styled(Text)>
+    <Styled(ViewNB)
+      style={
+        Object {
+          "borderBottomColor": "#D9D5DC",
+          "borderBottomWidth": 2,
+          "marginTop": 5,
+        }
+      }
+    >
+      <Styled(Text)
+        style={
+          Object {
+            "color": "#575757",
+            "fontSize": 15,
+            "marginLeft": 4,
+          }
+        }
+      >
+        City
+      </Styled(Text)>
+      <Component
+        city=""
+        onChange={[Function]}
+      />
+    </Styled(ViewNB)>
+    <Component
+      onChange={[Function]}
+      value={21}
+    />
+    <withNavigation(AvatarSelector)
+      onChange={[Function]}
+      value="manchots"
+    />
+    <Component
+      onChange={[Function]}
+      value={true}
+    />
+    <Component
+      languagesToLearn={
+        Object {
+          "english": "beginner",
+        }
+      }
+      onChange={[Function]}
+    />
+    <Component
+      languagesToTeach={
+        Object {
+          "english": "native",
+        }
+      }
+      onChange={[Function]}
+    />
+    <Styled(ViewNB)
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Styled(Text)
+        style={
+          Object {
+            "color": "#d9534f",
+          }
+        }
+      >
+        error message
+      </Styled(Text)>
+    </Styled(ViewNB)>
+  </Styled(ViewNB)>
+  <Styled(ViewNB)
+    padder={true}
+  >
+    <Styled(Button)
+      block={true}
+      disabled={false}
+      onPress={[Function]}
+      rounded={true}
+      success={true}
+      testID="updateBtn"
+    >
+      <Styled(Icon)
+        color="white"
+        fontSize={30}
+        name="cloud-sync"
+        type="MaterialCommunityIcons"
+      />
+      <Styled(Text)>
+        Update Profile
+      </Styled(Text)>
+    </Styled(Button)>
+    <Styled(Text)
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#d9534f",
+        }
+      }
+    >
+      Update impossible
+    </Styled(Text)>
+  </Styled(ViewNB)>
+</Styled(ViewNB)>
+`;
+
+exports[`FormUi 8`] = `
+<Styled(ViewNB)>
+  <Styled(ViewNB)
+    padder={true}
+  >
+    <Styled(Text)
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#d9534f",
+        }
+      }
+    >
+      Impossible to load the profile
+    </Styled(Text)>
+    <Styled(Item)
+      stackedLabel={true}
+    >
+      <Styled(Label)>
+        Pseudo
+      </Styled(Label)>
+      <Styled(Input)
+        onBlur={[Function]}
+        onChangeText={[MockFunction]}
+        value=""
+      />
+    </Styled(Item)>
+    <Styled(Item)
+      stackedLabel={true}
+    >
+      <Styled(Label)>
+        Profession
+      </Styled(Label)>
+      <Styled(Input)
+        onBlur={[Function]}
+        onChangeText={[MockFunction]}
+        value=""
+      />
+    </Styled(Item)>
+    <Styled(ViewNB)
+      style={
+        Object {
+          "borderBottomColor": "#D9D5DC",
+          "borderBottomWidth": 2,
+          "marginTop": 5,
+        }
+      }
+    >
+      <Styled(Text)
+        style={
+          Object {
+            "color": "#575757",
+            "fontSize": 15,
+            "marginLeft": 4,
+          }
+        }
+      >
+        City
+      </Styled(Text)>
+      <Component
+        city=""
+        onChange={[Function]}
+      />
+      <Styled(Text)
+        style={
+          Object {
+            "color": "#d9534f",
+          }
+        }
+      >
+        error message
+      </Styled(Text)>
+    </Styled(ViewNB)>
+    <Component
+      onChange={[Function]}
+      value={21}
+    />
+    <withNavigation(AvatarSelector)
+      onChange={[Function]}
+      value="manchots"
+    />
+    <Component
+      onChange={[Function]}
+      value={true}
+    />
+    <Component
+      languagesToLearn={
+        Object {
+          "english": "beginner",
+        }
+      }
+      onChange={[Function]}
+    />
+    <Component
+      languagesToTeach={
+        Object {
+          "english": "native",
+        }
+      }
+      onChange={[Function]}
+    />
+    <Styled(ViewNB)
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Styled(Text)
+        style={
+          Object {
+            "color": "#d9534f",
+          }
+        }
+      >
+        error message
+      </Styled(Text)>
+    </Styled(ViewNB)>
+  </Styled(ViewNB)>
+  <Styled(ViewNB)
+    padder={true}
+  >
+    <Styled(Button)
+      block={true}
+      disabled={false}
+      onPress={[Function]}
+      rounded={true}
+      success={true}
+      testID="updateBtn"
+    >
+      <Styled(Icon)
+        color="white"
+        fontSize={30}
+        name="cloud-sync"
+        type="MaterialCommunityIcons"
+      />
+      <Styled(Text)>
+        Update Profile
+      </Styled(Text)>
+    </Styled(Button)>
+    <Styled(Text)
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#d9534f",
+        }
+      }
+    >
+      Update impossible
+    </Styled(Text)>
+  </Styled(ViewNB)>
+</Styled(ViewNB)>
+`;
+
+exports[`FormUi 9`] = `
+<Styled(ViewNB)>
+  <Styled(ViewNB)
+    padder={true}
+  >
+    <Styled(Text)
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#d9534f",
+        }
+      }
+    >
+      Impossible to load the profile
+    </Styled(Text)>
+    <Styled(Item)
+      stackedLabel={true}
+    >
+      <Styled(Label)>
+        Pseudo
+      </Styled(Label)>
+      <Styled(Input)
+        onBlur={[Function]}
+        onChangeText={[MockFunction]}
+        value=""
+      />
+    </Styled(Item)>
+    <Styled(Item)
+      stackedLabel={true}
+    >
+      <Styled(Label)>
+        Profession
+      </Styled(Label)>
+      <Styled(Input)
+        onBlur={[Function]}
+        onChangeText={[MockFunction]}
+        value=""
+      />
+    </Styled(Item)>
+    <Styled(ViewNB)
+      style={
+        Object {
+          "borderBottomColor": "#D9D5DC",
+          "borderBottomWidth": 2,
+          "marginTop": 5,
+        }
+      }
+    >
+      <Styled(Text)
+        style={
+          Object {
+            "color": "#575757",
+            "fontSize": 15,
+            "marginLeft": 4,
+          }
+        }
+      >
+        City
+      </Styled(Text)>
+      <Component
+        city=""
+        onChange={[Function]}
+      />
+    </Styled(ViewNB)>
+    <Component
+      onChange={[Function]}
+      value={21}
+    />
+    <withNavigation(AvatarSelector)
+      onChange={[Function]}
+      value="manchots"
+    />
+    <Component
+      onChange={[Function]}
+      value={true}
+    />
+    <Component
+      languagesToLearn={
+        Object {
+          "english": "beginner",
+        }
+      }
+      onChange={[Function]}
+    />
+    <Component
+      languagesToTeach={
+        Object {
+          "english": "native",
+        }
+      }
+      onChange={[Function]}
+    />
+    <Styled(ViewNB)
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Styled(Text)
+        style={
+          Object {
+            "color": "#d9534f",
+          }
+        }
+      >
+        error message
+      </Styled(Text)>
+    </Styled(ViewNB)>
+  </Styled(ViewNB)>
+  <Styled(ViewNB)
+    padder={true}
+  >
+    <Styled(Button)
+      block={true}
+      disabled={false}
+      onPress={[Function]}
+      rounded={true}
+      success={true}
+      testID="updateBtn"
+    >
+      <Styled(Icon)
+        color="white"
+        fontSize={30}
+        name="cloud-sync"
+        type="MaterialCommunityIcons"
+      />
+      <Styled(Text)>
+        Update Profile
+      </Styled(Text)>
+    </Styled(Button)>
+    <Styled(Text)
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#d9534f",
+        }
+      }
+    >
+      Update impossible
+    </Styled(Text)>
+  </Styled(ViewNB)>
+</Styled(ViewNB)>
+`;
+
+exports[`Formik wrapper 1`] = `
+<Styled(ViewNB)>
+  <Styled(ViewNB)>
+    <Formik
+      enableReinitialize={true}
+      initialValues={
+        Object {
+          "age": 21,
+          "avatar": "manchots",
+          "city": "",
+          "id": "",
+          "isMale": true,
+          "langsToLearn": Object {
+            "english": "beginner",
+          },
+          "langsToTeach": Object {
+            "english": "native",
+          },
+          "profession": "",
+          "pseudo": "",
+        }
+      }
+      isInitialValid={false}
+      onSubmit={[Function]}
+      validateOnBlur={true}
+      validateOnChange={true}
+      validationSchema={
+        ObjectSchema {
+          "_blacklist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_conditions": Array [],
+          "_defaultDefault": [Function],
+          "_deps": Array [],
+          "_excludedEdges": Array [],
+          "_exclusive": Object {},
+          "_mutate": false,
+          "_nodes": Array [
+            "langsToLearn",
+            "lon",
+            "lat",
+            "city",
+            "profession",
+            "pseudo",
+          ],
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "object",
+          "_typeError": [Function],
+          "_whitelist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "fields": Object {
+            "city": StringSchema {
+              "_blacklist": RefSet {
+                "list": Set {
+                  "Current location",
+                },
+                "refs": Map {},
+              },
+              "_blacklistError": [Function],
+              "_conditions": Array [],
+              "_deps": Array [],
+              "_exclusive": Object {
+                "required": false,
+              },
+              "_mutate": false,
+              "_options": Object {
+                "abortEarly": true,
+                "recursive": true,
+              },
+              "_type": "string",
+              "_typeError": [Function],
+              "_whitelist": RefSet {
+                "list": Set {},
+                "refs": Map {},
+              },
+              "tests": Array [
+                [Function],
+                [Function],
+              ],
+              "transforms": Array [
+                [Function],
+              ],
+            },
+            "langsToLearn": Lazy {
+              "_resolve": [Function],
+            },
+            "lat": NumberSchema {
+              "_blacklist": RefSet {
+                "list": Set {},
+                "refs": Map {},
+              },
+              "_conditions": Array [],
+              "_deps": Array [],
+              "_exclusive": Object {
+                "required": false,
+              },
+              "_mutate": false,
+              "_options": Object {
+                "abortEarly": true,
+                "recursive": true,
+              },
+              "_type": "number",
+              "_typeError": [Function],
+              "_whitelist": RefSet {
+                "list": Set {},
+                "refs": Map {},
+              },
+              "tests": Array [
+                [Function],
+              ],
+              "transforms": Array [
+                [Function],
+              ],
+            },
+            "lon": NumberSchema {
+              "_blacklist": RefSet {
+                "list": Set {},
+                "refs": Map {},
+              },
+              "_conditions": Array [],
+              "_deps": Array [],
+              "_exclusive": Object {
+                "required": false,
+              },
+              "_mutate": false,
+              "_options": Object {
+                "abortEarly": true,
+                "recursive": true,
+              },
+              "_type": "number",
+              "_typeError": [Function],
+              "_whitelist": RefSet {
+                "list": Set {},
+                "refs": Map {},
+              },
+              "tests": Array [
+                [Function],
+              ],
+              "transforms": Array [
+                [Function],
+              ],
+            },
+            "profession": StringSchema {
+              "_blacklist": RefSet {
+                "list": Set {},
+                "refs": Map {},
+              },
+              "_conditions": Array [],
+              "_deps": Array [],
+              "_exclusive": Object {
+                "min": true,
+                "required": false,
+              },
+              "_mutate": false,
+              "_options": Object {
+                "abortEarly": true,
+                "recursive": true,
+              },
+              "_type": "string",
+              "_typeError": [Function],
+              "_whitelist": RefSet {
+                "list": Set {},
+                "refs": Map {},
+              },
+              "tests": Array [
+                [Function],
+                [Function],
+                [Function],
+              ],
+              "transforms": Array [
+                [Function],
+              ],
+            },
+            "pseudo": StringSchema {
+              "_blacklist": RefSet {
+                "list": Set {},
+                "refs": Map {},
+              },
+              "_conditions": Array [],
+              "_deps": Array [],
+              "_exclusive": Object {
+                "min": true,
+                "required": false,
+              },
+              "_mutate": false,
+              "_options": Object {
+                "abortEarly": true,
+                "recursive": true,
+              },
+              "_type": "string",
+              "_typeError": [Function],
+              "_whitelist": RefSet {
+                "list": Set {},
+                "refs": Map {},
+              },
+              "tests": Array [
+                [Function],
+                [Function],
+                [Function],
+              ],
+              "transforms": Array [
+                [Function],
+              ],
+            },
+          },
+          "tests": Array [],
+          "transforms": Array [
+            [Function],
+          ],
+        }
+      }
+    >
+      <Component />
+    </Formik>
+  </Styled(ViewNB)>
+  <Connect(LogoutButton) />
+</Styled(ViewNB)>
+`;

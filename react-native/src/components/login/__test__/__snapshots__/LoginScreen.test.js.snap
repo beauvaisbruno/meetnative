@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logout Button 1`] = `
+<Styled(Container)>
+  <Styled(Content)>
+    <ErrorableImage
+      source={
+        Object {
+          "testUri": "../../../src/components/login/img/header.png",
+        }
+      }
+      width={750}
+    />
+    <Styled(ViewNB)
+      padder={true}
+    >
+      <Connect(GoogleLoginButton) />
+      <Connect(FbLoginButton) />
+      <Connect(withNavigation(EmailLoginUi)) />
+    </Styled(ViewNB)>
+  </Styled(Content)>
+</Styled(Container)>
+`;

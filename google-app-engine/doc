@@ -1,0 +1,12 @@
+https://firebase.google.com/docs/admin/setup
+
+https://cloud.google.com/nodejs/docs/reference/firebase/0.20.x/DocumentReference
+
+https://stackoverflow.com/questions/49248216/react-native-typescript-images-static-assets
+npm i -D copyfiles
+"add-assets": "copyfiles -u 1 'src/**/!(*.js|*.jsx|*.map|*.ts|*.tsx)' lib/",
+
+https://github.com/arjunyel/firestore-apollo-graphql
+
+if you don't like its green background, you can change the color in
+Preferences | Editor | Color Scheme | General / Code / Injected language fragment settings, Background.

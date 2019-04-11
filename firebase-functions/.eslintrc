@@ -1,0 +1,67 @@
+{
+  "extends": ["plugin:jest/recommended"],
+  "globals": {
+    "__DEV__": true,
+    "jest/globals": true
+  },
+  "parser": "typescript-eslint-parser",
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "plugins": ["jest"
+  ],
+  "rules": {
+    "no-loop-func": 1,
+    "import/no-unresolved": 0,
+    "no-console": 0,
+    "react/prefer-stateless-function": [
+      1,
+      {
+        "ignorePureComponents": false
+      }
+    ],
+    "import/no-commonjs": 1,
+    "require-yield": 0,
+    "prefer-arrow-callback": 1,
+    "import/no-namespace": 1,
+    "no-useless-concat": 1,
+    "no-empty-function": 1,
+    "no-unused-vars": 0,
+    "no-empty": 1,
+    "no-use-before-define": 0,
+    "react/prop-types": 1,
+    "react/display-name": 0,
+    "arrow-body-style": 1,
+    "import/prefer-default-export": 0,
+    "react-native/no-inline-styles": 0,
+    "react-native/no-color-literals": 0,
+    "react-native/no-raw-text": 0,
+    "react-native/no-unused-styles": 1,
+    "react-native/split-platform-components": 1,
+    "class-methods-use-this": [
+      1,
+      {
+        "exceptMethods": [
+          "render"
+        ]
+      }
+    ],
+    "indent": [
+      "warn",
+      2,  {"SwitchCase": 1}
+    ],
+    "linebreak-style": [
+      "warn",
+      "windows"
+    ],
+    "quotes": [
+      "error",
+      "double"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ]
+  }
+}

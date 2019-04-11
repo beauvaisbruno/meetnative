@@ -1,0 +1,30 @@
+https://www.jetbrains.com/help/idea/work-on-several-features-simultaneously.html
+http://rogerdudler.github.io/git-guide/index.fr.html
+
+Init
+----
+git init
+git remote add origin <server>
+
+Merge workflow
+--------------------
+1.Create a branch
+git checkout -b feature_x
+
+2.Commit
+git commit -m "Message de validation"
+
+3.Push
+git push origin feature_x
+
+4.Merge
+git checkout master
+git merge <branch>
+
+5.Delete
+git branch -d feature_x
+
+---------
+push impossible to detached HEAD ?
+> create new branch
+> checkout and rebase onto current

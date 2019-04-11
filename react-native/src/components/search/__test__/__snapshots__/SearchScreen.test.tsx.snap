@@ -1,0 +1,234 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchScreen 1`] = `
+<Styled(ViewNB)>
+  <Styled(ViewNB)
+    key="IEY3I5fpxQilwKzPt0Sc"
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Styled(ViewNB)
+      key="avatar"
+      style={
+        Object {
+          "position": "relative",
+          "width": 375,
+        }
+      }
+    >
+      <ErrorableImage
+        source={
+          Object {
+            "testUri": "../../../src/components/profile/img/pelican.png",
+          }
+        }
+        width={375}
+      />
+      <Styled(Button)
+        block={true}
+        onPress={[Function]}
+        rounded={true}
+        style={
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "rgba(255, 153, 0, 0.7)",
+            "bottom": 10,
+            "position": "absolute",
+          }
+        }
+        success={true}
+        testID="contact-IEY3I5fpxQilwKzPt0Sc"
+      >
+        <Styled(Text)>
+          Contact
+        </Styled(Text)>
+      </Styled(Button)>
+    </Styled(ViewNB)>
+    <Styled(ViewNB)
+      key="description"
+      style={
+        Object {
+          "paddingLeft": 5,
+          "width": 375,
+        }
+      }
+    >
+      <Styled(ViewNB)
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Styled(Text)
+          style={
+            Object {
+              "fontSize": 47,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Maëlle
+        </Styled(Text)>
+        <Styled(Icon)
+          fontSize={47}
+          name="gender-female"
+          style={
+            Object {
+              "color": "#ff9900",
+            }
+          }
+          type="MaterialCommunityIcons"
+        />
+      </Styled(ViewNB)>
+      <Styled(Text)
+        style={
+          Object {
+            "color": "#8e7cc3",
+            "fontSize": 35,
+          }
+        }
+      >
+        Genève
+         
+        6
+        km
+      </Styled(Text)>
+      <Styled(Text)
+        style={
+          Object {
+            "color": "#919191",
+            "fontSize": 24,
+          }
+        }
+      >
+        Legal Assistant
+         - 
+        23yo
+      </Styled(Text)>
+      <Styled(Text)
+        style={
+          Object {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Speak
+      </Styled(Text)>
+      <Styled(Text)
+        key="teach-french"
+        style={
+          Object {
+            "color": "#ff9900",
+            "fontSize": 24,
+          }
+        }
+      >
+        French Fluent
+      </Styled(Text)>
+      <Styled(Text)
+        key="teach-italian"
+        style={
+          Object {
+            "color": "#ff9900",
+            "fontSize": 24,
+          }
+        }
+      >
+        Italian Bilingual
+      </Styled(Text)>
+      <Styled(Text)
+        key="teach-spanish"
+        style={
+          Object {
+            "color": "#ff9900",
+            "fontSize": 24,
+          }
+        }
+      >
+        Spanish Native
+      </Styled(Text)>
+      <Styled(Text)
+        style={
+          Object {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Learn
+      </Styled(Text)>
+      <Styled(Text)
+        key="learn-english"
+        style={
+          Object {
+            "color": "#ff9900",
+            "fontSize": 24,
+          }
+        }
+      >
+        English Beginner A1/A2
+      </Styled(Text)>
+      <Styled(Text)
+        key="learn-french"
+        style={
+          Object {
+            "color": "#919191",
+            "fontSize": 24,
+          }
+        }
+      >
+        French Fluent C1/C2
+      </Styled(Text)>
+      <Styled(Text)
+        key="learn-german"
+        style={
+          Object {
+            "color": "#919191",
+            "fontSize": 24,
+          }
+        }
+      >
+        German Intermediate B1/B2
+      </Styled(Text)>
+    </Styled(ViewNB)>
+  </Styled(ViewNB)>
+</Styled(ViewNB)>
+`;
+
+exports[`SearchScreen 2`] = `
+<Styled(ViewNB)>
+  <Loading />
+  <Component />
+</Styled(ViewNB)>
+`;
+
+exports[`SearchScreen 3`] = `
+<Styled(ViewNB)>
+  <Styled(Text)
+    style={
+      Object {
+        "color": "#d9534f",
+      }
+    }
+  >
+    Impossible to load profiles
+  </Styled(Text)>
+  <Styled(ViewNB)>
+    <Styled(Text)
+      style={
+        Object {
+          "fontStyle": "italic",
+          "textAlign": "center",
+        }
+      }
+    >
+      No user match your profile
+    </Styled(Text)>
+  </Styled(ViewNB)>
+</Styled(ViewNB)>
+`;

@@ -1,0 +1,282 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChatHeader 1`] = `
+<Styled(ViewNB)>
+  <Styled(ViewNB)
+    style={
+      Object {
+        "borderBottomColor": "#a6a6a6",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <Styled(ViewNB)
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <ErrorableImage
+        source={
+          Object {
+            "testUri": "../../../src/components/profile/img/pelican.png",
+          }
+        }
+        width={97.5}
+      />
+      <Styled(Text)
+        style={
+          Object {
+            "fontSize": 64,
+            "fontWeight": "bold",
+            "marginLeft": 5,
+          }
+        }
+      >
+        Maëlle
+      </Styled(Text)>
+    </Styled(ViewNB)>
+    <Styled(Button)
+      block={true}
+      onPress={[Function]}
+      testID="headerVisibleBtn"
+      transparent={true}
+    >
+      <Styled(Icon)
+        fontSize={10}
+        name="plus-circle"
+        style={
+          Object {
+            "fontSize": 10,
+            "marginLeft": 0,
+            "marginRight": 0,
+          }
+        }
+        type="FontAwesome"
+      />
+      <Styled(Text)
+        style={
+          Object {
+            "fontSize": 24,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+          }
+        }
+      >
+        Info
+      </Styled(Text)>
+    </Styled(Button)>
+  </Styled(ViewNB)>
+</Styled(ViewNB)>
+`;
+
+exports[`ChatHeader 2`] = `
+<Styled(ViewNB)>
+  <Styled(ViewNB)
+    style={
+      Object {
+        "borderBottomColor": "#a6a6a6",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <ErrorableImage
+      source={
+        Object {
+          "testUri": "../../../src/components/profile/img/pelican.png",
+        }
+      }
+      width={375}
+    />
+    <Styled(ViewNB)
+      style={
+        Object {
+          "paddingLeft": 5,
+          "width": 375,
+        }
+      }
+    >
+      <Styled(ViewNB)
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <Styled(ViewNB)
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Styled(Text)
+            style={
+              Object {
+                "fontSize": 47,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Maëlle
+          </Styled(Text)>
+          <Styled(Icon)
+            fontSize={47}
+            name="gender-female"
+            style={
+              Object {
+                "color": "#ff9900",
+              }
+            }
+            type="MaterialCommunityIcons"
+          />
+        </Styled(ViewNB)>
+        <Styled(Button)
+          block={true}
+          onPress={[Function]}
+          style={
+            Object {
+              "height": 40,
+              "marginBottom": 0,
+              "marginLeft": 0,
+              "marginRight": 0,
+              "marginTop": 0,
+              "paddingBottom": 0,
+              "paddingLeft": 0,
+              "paddingRight": 0,
+              "paddingTop": 0,
+            }
+          }
+          testID="headerVisibleBtn"
+          transparent={true}
+        >
+          <Styled(Icon)
+            name="close-circle-outline"
+            style={
+              Object {
+                "color": "#d9534f",
+                "fontSize": 35,
+                "marginBottom": 0,
+                "marginLeft": 0,
+                "marginRight": 0,
+                "marginTop": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+              }
+            }
+            type="MaterialCommunityIcons"
+          />
+        </Styled(Button)>
+      </Styled(ViewNB)>
+      <Styled(Text)
+        style={
+          Object {
+            "color": "#8e7cc3",
+            "fontSize": 35,
+          }
+        }
+      >
+        Genève
+         
+        6
+        km
+      </Styled(Text)>
+      <Styled(Text)
+        style={
+          Object {
+            "color": "#919191",
+            "fontSize": 24,
+          }
+        }
+      >
+        Legal Assistant
+         - 
+        23yo
+      </Styled(Text)>
+      <Styled(Text)
+        style={
+          Object {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Speak
+      </Styled(Text)>
+      <Styled(Text)
+        key="teach-english"
+        style={
+          Object {
+            "color": "#ff9900",
+            "fontSize": 24,
+          }
+        }
+      >
+        English Native
+      </Styled(Text)>
+      <Styled(Text)
+        key="teach-spanish"
+        style={
+          Object {
+            "color": "#919191",
+            "fontSize": 24,
+          }
+        }
+      >
+        Spanish Fluent
+      </Styled(Text)>
+      <Styled(Text)
+        style={
+          Object {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Learn
+      </Styled(Text)>
+      <Styled(Text)
+        key="learn-french"
+        style={
+          Object {
+            "color": "#ff9900",
+            "fontSize": 24,
+          }
+        }
+      >
+        French Intermediate B1/B2
+      </Styled(Text)>
+      <Styled(Text)
+        key="learn-italian"
+        style={
+          Object {
+            "color": "#ff9900",
+            "fontSize": 24,
+          }
+        }
+      >
+        Italian Beginner A1/A2
+      </Styled(Text)>
+      <Styled(Text)
+        key="learn-spanish"
+        style={
+          Object {
+            "color": "#ff9900",
+            "fontSize": 24,
+          }
+        }
+      >
+        Spanish Fluent C1/C2
+      </Styled(Text)>
+    </Styled(ViewNB)>
+  </Styled(ViewNB)>
+</Styled(ViewNB)>
+`;

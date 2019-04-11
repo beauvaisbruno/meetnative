@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar Selector 1`] = `
+<Styled(ViewNB)
+  style={
+    Object {
+      "alignItems": "center",
+      "justifyContent": "center",
+      "textAlignVertical": "top",
+    }
+  }
+>
+  <Styled(ViewNB)
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+        "textAlignVertical": "top",
+      }
+    }
+  >
+    <Styled(Text)
+      style={
+        Object {
+          "marginRight": 10,
+          "textAlignVertical": "top",
+        }
+      }
+    >
+      Avatar
+    </Styled(Text)>
+    <TouchableHighlight
+      activeOpacity={0.85}
+      delayPressOut={100}
+      onPress={[Function]}
+      testID="TouchableHighlight"
+      underlayColor="black"
+    >
+      <ErrorableImage
+        width={337.5}
+      />
+    </TouchableHighlight>
+  </Styled(ViewNB)>
+</Styled(ViewNB)>
+`;

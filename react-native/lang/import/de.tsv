@@ -1,0 +1,130 @@
+de	2019-03-20_15-52-54
+[..\src\components\lang]	
+New Message	Neue Nachricht
+Display a notification when you receive a new message	Zeigt eine Benachrichtigung an, wenn Sie eine neue Nachricht erhalten
+Save your profile info before to start	Speichern Sie Ihre Profilinformationen, bevor Sie beginnen
+Profile	Profil
+	
+[..\src\components\login\lang]	
+Login with your email	Loggen Sie sich mit Ihrer E-Mail ein
+Email	Email
+Password	Passwort
+Login	Anmeldung
+Forgotten password	Passwort vergessen
+E-mail is not valid!	Email ist ungültig!
+E-mail is required!	E-Mail ist erforderlich!
+Password has to be longer than 6 characters!	Das Passwort muss länger als 6 Zeichen sein!
+Password is required!	Passwort wird benötigt!
+Login with Facebook	Mit Facebook einloggen
+Sign in impossible	Anmeldung unmöglich
+Login with Google	Mit Google anmelden
+Connection impossible : internet is not available.	Verbindung unmöglich: Internet ist nicht verfügbar.
+Connection impossible.	Verbindung unmöglich
+This email account exist, but the password is wrong.	Dieses E-Mail-Konto ist vorhanden, das Passwort ist jedoch falsch.
+The password is too weak.	Das Passwort ist zu schwach.
+The email address is not valid.	Die E-Mail-adresse ist nicht gültig.
+The connection is impossible.	Die Verbindung ist unmöglich.
+Reset password	Passwort zurücksetzen
+Instruction has been sent to your email: {email}	Anweisung wurde an Ihre E-Mail gesendet: {E-Mail}
+OK	OK
+The reset is impossible.	Das Zurücksetzen ist nicht möglich.
+This email account doesn't exist.	Dieses E-Mail-Konto existiert nicht.
+Reset the password	Setzen Sie das Passwort zurück
+	
+[..\src\components\partners\lang]	
+Unread message	Ungelesene Nachricht
+Contact	Kontakt
+yo	jä
+Read message	Nachricht lesen
+Impossible to load new messages	Neue Nachrichten können nicht geladen werden
+You have no partner yet	Du hast noch keinen Partner
+Last Messages	Letzte Nachrichten
+	
+[..\src\components\profile\lang]	
+{age} yo	{age} jä
+Select your age	Wähle dein Alter aus
+Select your gender	Wähle dein Geschlecht
+Male	Mann
+Female	Frau
+Search	Suche
+Current location	Aktueller Standort
+Langage to learn	Langzeit zu lernen
+Add a langage	Sprache hinzufügen
+Langage to teach	Sprache zu lehren
+Logout	Ausloggen
+Impossible to load the profile	Das Profil kann nicht geladen werden
+Pseudo	Pseudo
+Profession	Beruf
+City	Stadt
+Update Profile	Profil aktualisieren
+Update impossible	Update unmöglich
+Pseudo has to be longer than 3 characters!	Pseudo muss länger als 3 Zeichen sein!
+Pseudo is required!	Pseudo ist erforderlich!
+Profession has to be longer than 3 characters!	Der Beruf muss länger als 3 Zeichen sein!
+Profession is required!	Beruf ist erforderlich!
+Please select a city	Bitte wählen Sie eine Stadt aus
+You couldn't teach and learn {lang}	Sie konnten nicht {lang} unterrichten und lernen
+	
+[..\src\components\room\lang]	
+Info	Info
+yo	jä
+Speak	Sprechen
+Learn	Lernen
+Message	Botschaft
+Chat	Plaudern
+	
+[..\src\components\search\lang]	
+Contact	Kontakt
+yo	jä
+Speak	Sprechen
+Learn	Lernen
+Impossible to load profiles	Profile können nicht geladen werden
+No user match your profile	Kein Benutzer passt zu Ihrem Profil
+Find a partner	Einen Partner finden
+	
+[..\src\lang]	
+English	Englisch
+French	Französisch
+German	Deutsche
+Italian	Italienisch
+Spanish	Spanisch
+Dutch	Niederländisch
+Polish	Polieren
+Romanian	Rumänisch
+Russian	Russisch
+Czech	Tschechisch
+Hungarian	Ungarisch
+Portuguese	Portugiesisch
+Greek	Griechisch
+Swedish	Schwedisch
+Bulgarian	Bulgarisch
+Catalan	Katalanisch
+Danish	Dänisch
+Slovak	Slowakisch
+Finnish	Finnisch
+Arabic	Arabisch
+Lithuanian	Litauisch
+Turkish	Türkisch
+Galician	Galizisch
+Slovenian	Slowenisch
+Latvian	Lettisch
+Croatian	Kroatisch
+Basque	Baskisch
+Estonian	Estnisch
+Urdu	Urdu
+Irish Gaelic	Irisch-Gälisch
+Hindi	Hindi
+Chinese	Chinesisch
+Welsh	Walisisch
+Japanese	Japanisch
+Maltese	Maltesisch
+Luxembourgish	Luxemburgisch
+Korean	Koreanisch
+Scottish Gaelic	Schottisch Gälisch
+Beginner A1/A2	Anfänger A1 / A2
+Intermediate B1/B2	Mittelstufe B1 / B2
+Fluent C1/C2	Fließend C1 / C2
+Unknow	Unbekannt
+Native	Native
+Bilingual	Zweisprachig
+Fluent	Fließend

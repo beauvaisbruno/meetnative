@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`sidebar 1`] = `
+<Styled(Container)>
+  <Styled(Content)>
+    <ErrorableImage
+      source={
+        Object {
+          "testUri": "../../../src/components/login/img/header.png",
+        }
+      }
+      width={600}
+    />
+    <Styled(List)
+      dataArray={
+        Array [
+          Object {
+            "key": "one",
+            "menuLabel": "menuLabelOne",
+          },
+          Object {
+            "key": "two",
+            "menuLabel": "menuLabelTwo",
+          },
+        ]
+      }
+      renderRow={[Function]}
+    />
+    <Connect(LogoutButton) />
+  </Styled(Content)>
+</Styled(Container)>
+`;
+
+exports[`sidebar 2`] = `
+<ListItem
+  button={true}
+  onPress={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "transparent",
+      "borderBottomWidth": 0.5,
+      "borderColor": "#c9c9c9",
+      "flexDirection": "row",
+      "marginLeft": 16,
+      "paddingBottom": 13,
+      "paddingRight": 16,
+      "paddingTop": 13,
+    }
+  }
+  testID="one"
+>
+  <Styled(Text)
+    style={
+      Object {
+        "color": "#6d6d6d",
+      }
+    }
+  >
+    menuLabelOne
+  </Styled(Text)>
+</ListItem>
+`;
+
+exports[`sidebar 3`] = `
+<ListItem
+  button={true}
+  onPress={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "transparent",
+      "borderBottomWidth": 0.5,
+      "borderColor": "#c9c9c9",
+      "flexDirection": "row",
+      "marginLeft": 16,
+      "paddingBottom": 13,
+      "paddingRight": 16,
+      "paddingTop": 13,
+    }
+  }
+  testID="two"
+>
+  <Styled(Text)
+    style={
+      Object {
+        "color": "#6d6d6d",
+      }
+    }
+  >
+    menuLabelTwo
+  </Styled(Text)>
+</ListItem>
+`;

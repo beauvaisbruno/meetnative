@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pageTemplate 1`] = `
+<Styled(Container)
+  style={
+    Object {
+      "backgroundColor": "white",
+    }
+  }
+>
+  <Connect(withNavigation(HeaderApp))
+    headerTitle="Home"
+  />
+  <Styled(Content)
+    padder={true}
+  >
+    <Comp
+      navigation={
+        Object {
+          "openDrawer": [MockFunction],
+        }
+      }
+    />
+  </Styled(Content)>
+</Styled(Container)>
+`;

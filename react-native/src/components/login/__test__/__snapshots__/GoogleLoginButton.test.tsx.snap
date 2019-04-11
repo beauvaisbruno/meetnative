@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component 1`] = `
+<Styled(ViewNB)
+  padder={true}
+>
+  <Styled(Button)
+    block={true}
+    onPress={[Function]}
+    rounded={true}
+    style={
+      Object {
+        "backgroundColor": "#dd4b39",
+      }
+    }
+    testID="googleLoginBtn"
+  >
+    <Styled(Icon)
+      color="white"
+      fontSize={30}
+      name="google-plus-square"
+      type="FontAwesome5"
+    />
+    <Styled(Text)>
+      Login with Google
+    </Styled(Text)>
+  </Styled(Button)>
+</Styled(ViewNB)>
+`;
+
+exports[`Component 2`] = `
+<Styled(ViewNB)
+  padder={true}
+>
+  <Styled(Button)
+    block={true}
+    onPress={[Function]}
+    rounded={true}
+    style={
+      Object {
+        "backgroundColor": "#dd4b39",
+      }
+    }
+    testID="googleLoginBtn"
+  >
+    <Styled(Icon)
+      color="white"
+      fontSize={30}
+      name="google-plus-square"
+      type="FontAwesome5"
+    />
+    <Styled(Text)>
+      Login with Google
+    </Styled(Text)>
+  </Styled(Button)>
+  <Styled(Text)
+    style={
+      Object {
+        "alignSelf": "center",
+        "color": "#d9534f",
+      }
+    }
+  >
+    Sign in impossible
+  </Styled(Text)>
+</Styled(ViewNB)>
+`;
+
+exports[`Component 3`] = `
+<Styled(ViewNB)
+  padder={true}
+>
+  <Styled(Button)
+    block={true}
+    onPress={[Function]}
+    rounded={true}
+    style={
+      Object {
+        "backgroundColor": "#dd4b39",
+      }
+    }
+    testID="googleLoginBtn"
+  >
+    <Styled(Icon)
+      color="white"
+      fontSize={30}
+      name="google-plus-square"
+      type="FontAwesome5"
+    />
+    <Styled(Text)>
+      Login with Google
+    </Styled(Text)>
+  </Styled(Button)>
+  <Styled(Text)
+    style={
+      Object {
+        "alignSelf": "center",
+        "color": "#d9534f",
+      }
+    }
+  >
+    Sign in impossible
+  </Styled(Text)>
+</Styled(ViewNB)>
+`;

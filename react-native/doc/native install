@@ -1,0 +1,36 @@
+Native package install
+----------------------
+
+https://github.com/facebook/react-native-fbsdk
+https://nativebase.io/docs/v0.5.9/getting-started
+https://reactnavigation.org/docs/en/getting-started.html
+
+https://rnfirebase.io/docs/v5.x.x/installation/ios
+https://rnfirebase.io/docs/v5.x.x/auth/social-auth
+https://rnfirebase.io/docs/v5.x.x/messaging/ios
+https://rnfirebase.io/docs/v5.x.x/notifications/ios
+FCM does not work on the iOS simulator, you must test them using a real device. This is a restriction enforced by Apple.
+
+troubleshooting
+---------------
+null is not an object ( evaluating 'RNGestureHandlerModule.Direction')
+https://github.com/kmagiera/react-native-gesture-handler/issues/494
+
+problem duplicate value
+https://github.com/facebook/react-native-fbsdk/issues/416
+
+'React/RCTEventDispatcher.h' file not found
+https://github.com/kmagiera/react-native-gesture-handler/issues/299
+
+CircleCI
+--------
+https://android.jlelse.eu/where-to-store-android-keystore-file-in-ci-cd-cycle-2365f4e02e57
+
+IOs only
+--------
+App store => Icon set creator
+https://medium.com/@kelleyannerose/react-native-ios-splash-screen-in-xcode-bd53b84430ec
+https://apetools.webprofusion.com/app/#/
+
+install IPA
+https://www.installonair.com/

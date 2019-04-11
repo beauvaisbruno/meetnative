@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component 1`] = `
+<Styled(ViewNB)
+  padder={true}
+>
+  <Styled(Button)
+    block={true}
+    onPress={[Function]}
+    rounded={true}
+    style={
+      Object {
+        "backgroundColor": "#8e7cc3",
+      }
+    }
+    testID="facebookLoginButton"
+  >
+    <Styled(Icon)
+      color="white"
+      fontSize={30}
+      name="facebook-square"
+      type="AntDesign"
+    />
+    <Styled(Text)>
+      Login with Facebook
+    </Styled(Text)>
+  </Styled(Button)>
+</Styled(ViewNB)>
+`;
+
+exports[`Component 2`] = `
+<Styled(ViewNB)
+  padder={true}
+>
+  <Styled(Button)
+    block={true}
+    onPress={[Function]}
+    rounded={true}
+    style={
+      Object {
+        "backgroundColor": "#8e7cc3",
+      }
+    }
+    testID="facebookLoginButton"
+  >
+    <Styled(Icon)
+      color="white"
+      fontSize={30}
+      name="facebook-square"
+      type="AntDesign"
+    />
+    <Styled(Text)>
+      Login with Facebook
+    </Styled(Text)>
+  </Styled(Button)>
+  <Styled(Text)
+    style={
+      Object {
+        "alignSelf": "center",
+        "color": "#d9534f",
+      }
+    }
+  >
+    Sign in impossible
+  </Styled(Text)>
+</Styled(ViewNB)>
+`;
+
+exports[`Component 3`] = `
+<Styled(ViewNB)
+  padder={true}
+>
+  <Styled(Button)
+    block={true}
+    onPress={[Function]}
+    rounded={true}
+    style={
+      Object {
+        "backgroundColor": "#8e7cc3",
+      }
+    }
+    testID="facebookLoginButton"
+  >
+    <Styled(Icon)
+      color="white"
+      fontSize={30}
+      name="facebook-square"
+      type="AntDesign"
+    />
+    <Styled(Text)>
+      Login with Facebook
+    </Styled(Text)>
+  </Styled(Button)>
+  <Styled(Text)
+    style={
+      Object {
+        "alignSelf": "center",
+        "color": "#d9534f",
+      }
+    }
+  >
+    Sign in impossible
+  </Styled(Text)>
+</Styled(ViewNB)>
+`;

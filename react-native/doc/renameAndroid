@@ -1,0 +1,44 @@
+https://stackoverflow.com/questions/54151921/react-native-cannot-change-package-name-always-failing
+
+Android Manually
+If you plan to do the changes manually then there are a lot of files to change. There may actually be more depending on what you have added to your project. This is a guide for changing a vanilla project.
+
+In the application root
+
+In the app.json change the name and the displayName to be "project"
+
+In the package.json change the name to be "name": "project",
+
+android/settings.gradle
+
+Change the rootProject.name to the name that you want: rootProject.name = 'project'
+
+android/app/build.gradle
+
+In the default config change the applicationId to the application Id that you want, in this case: applicationId com.awesome.project
+
+android/app/BUCK
+
+Change the package in both the android_build_config and the android_resources to the desired package, in this case: package = "com.awesome.project",
+
+android/app/src/main/AndroidManifest.xml
+
+Change the package to the desired package name, in this case: package="com.awesome.project"
+
+android/app/src/main/res/values/strings.xml
+
+Change the app name to the desired app name, in this case <string name="app_name">project</string>
+
+Updating the *.java files
+
+This bit is tricker as you have to create folders, move files and then rename parts of the internals of the files.
+
+android/app/src/main/java/com/
+
+Create a folder called awesome and inside that folder create a folder called project
+
+Copy the MainActivty.java and the MainApplication.java from the android/app/src/main/java/com/myawesomeproject into the recently created android/app/src/main/java/com/awesome/project folder.
+
+Inside the both the  MainActivity.java and the MainApplication.java remane the package at the top of the files from package com.myawesomeproject; to package com.awesome.project;
+
+Also in the MainActivity.java rename the string that is returned by the getComponentName() function to "project"

@@ -1,0 +1,1 @@
+{"version":3,"file":"lang.js","sourceRoot":"","sources":["../../../../../react-native/src/config/lang.ts"],"names":[],"mappings":";;AAAA,iCAAmC;AAEnC,kBAAe,CACb,OAAe,EACf,IAAqD,EACrD,EAAE;IACF,OAAO,gBAAS,CAAC,UAAU,EAAE,OAAO,EAAE,IAAI,CAAC,CAAC;AAC9C,CAAC,CAAC;AAEF,MAAM,UAAU,GAAG;IACjB,OAAO,EAAE;QACP,EAAE,EAAE,SAAS;KACd;CACF,CAAC"}

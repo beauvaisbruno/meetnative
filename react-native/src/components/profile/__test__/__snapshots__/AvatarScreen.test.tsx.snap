@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Age Selector 1`] = `
+<Styled(Content)>
+  <Styled(ViewNB)
+    key="1"
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <TouchableHighlight
+      activeOpacity={0.85}
+      delayPressOut={100}
+      key="0"
+      onPress={[Function]}
+      testID="0"
+      underlayColor="black"
+    >
+      <ErrorableImage
+        source="avatar1"
+        width={375}
+      />
+    </TouchableHighlight>
+    <TouchableHighlight
+      activeOpacity={0.85}
+      delayPressOut={100}
+      key="1"
+      onPress={[Function]}
+      testID="1"
+      underlayColor="black"
+    >
+      <ErrorableImage
+        source="avatar2"
+        width={375}
+      />
+    </TouchableHighlight>
+  </Styled(ViewNB)>
+</Styled(Content)>
+`;

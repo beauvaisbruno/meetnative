@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessagesUi 1`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;
+
+exports[`MessagesUi 2`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;

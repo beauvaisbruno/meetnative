@@ -1,6 +1,6 @@
 # Meet Native : Find a Language Partner
 
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)
+![Build Status](https://img.shields.io/badge/circleci-passing-brightgreen.svg)
 ![codecov](https://img.shields.io/badge/coverage-83%25-green.svg)
 ![Codacy Badge](https://img.shields.io/badge/code%20quality-A-brightgreen.svg)
 ![licence MIT](https://img.shields.io/badge/license-MIT-green.svg)
@@ -12,7 +12,7 @@ Cross-platform mobile app for Android and iOS written with React Native.
 <a target="_blank" href='https://play.google.com/store/apps/details?id=tech.equipage.meetnative'><img width="200" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
 <a target="_blank" href='https://itunes.apple.com/us/app/id1458711190'><img width="200" alt='Download on App Store' src='https://i.imgur.com/7IxtMV0.png'/></a>
 
-# Tech Stuff inside
+# Technologies inside
 - [React Native](https://facebook.github.io/react-native/) 0.58.6 to build an app for both Android and iOS
 - [ECMAScript 2018](https://en.wikipedia.org/wiki/ECMAScript#9th_Edition_-_ECMAScript_2018) and [Typescript](https://github.com/Microsoft/TypeScript-React-Native-Starter) to add typing and [Node.js](https://nodejs.org/en/) for server side
 - [Redux](https://redux.js.org/) and [Saga](https://github.com/redux-saga/redux-saga) for state management using [Ducks](https://github.com/erikras/ducks-modular-redux) to isolate modules
@@ -59,9 +59,9 @@ yarn install
 ```
 ## 2. Run it Android
 Meetnative is built on React Native and therefore assumes you have node installed. Yarn is preferred over NPM as a package manager.
-- Configure your firebase project following this [guide](https://rnfirebase.io/docs/v5.x.x/installation/initial-setup)
-- Configure the FacebookSDK following this [guide](https://developers.facebook.com/docs/android/getting-started/)
-- Configure Google Places autocomplete follow this [guide](https://github.com/FaridSafi/react-native-google-places-autocomplete)
+- Configure your Firebase project following this [guide](https://rnfirebase.io/docs/v5.x.x/installation/initial-setup)
+- To configure the Facebook SDK use this [guide](https://developers.facebook.com/docs/android/getting-started/)
+- To set up the Google Places Autocomplete Component read this [guide](https://github.com/FaridSafi/react-native-google-places-autocomplete)
 
 ```bash
 yarn run android

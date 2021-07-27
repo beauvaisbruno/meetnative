@@ -54,7 +54,7 @@ Your partner found, make an appointment at a café terrace or in a park, etc. Th
 git clone https://github.com/beauvaisbruno/meetnative
 
 # Install dependencies
-cd react-native
+cd meetnative
 yarn install
 ```
 ## 2. Run it Android
